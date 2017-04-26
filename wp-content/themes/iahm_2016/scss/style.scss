@@ -1,0 +1,275 @@
+@import 'base/intro';
+@import "base/reset";
+@import "base/font";
+@import "base/color";
+@import "base/functions";
+@import "base/tools";
+@import "advanced/header";
+@import "advanced/footer";
+@import "advanced/footer2";
+@import "advanced/subnav";
+@import "advanced/custom";
+@import "advanced/content";
+@import "advanced/content_custom";
+@import "advanced/events";
+@import "advanced/slider";
+@import "advanced/home";
+@import "advanced/live";
+@import "advanced/event";
+
+body {
+    font-family: $futura;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    &.page-template-default,
+    &.page-template-page_form,
+    &.post-type-archive-espresso_events {
+
+        section#bigimage {
+            .banner {
+                height: 40vh;
+                min-height: 300px;
+                padding: 100px;
+            }
+        }
+
+        section#content .platter {
+            top: -104px;
+            margin-bottom: -40px;
+        }
+    }
+}
+
+main.main {
+    margin-top: 47px;
+}
+
+section {
+    .platter {
+        max-width: 1160px;
+        background-color: white;
+        position: relative;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 64px;
+        padding-bottom: 64px;
+        min-height: 350px;
+    }
+}
+
+section#bigimage {
+    background-color: black;
+
+    &.dark {
+        .banner {
+            -webkit-backdrop-filter: saturate(180%) blur(20px);
+            backdrop-filter: saturate(180%) blur(20px);
+        }
+    }
+
+    .banner {
+        width: 100%;
+        height: 60vh;
+        min-height: 500px;
+        max-height: 700px;
+        display: block;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        top: 0;
+        box-sizing: border-box;
+
+        .video-bg {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: 1;
+
+
+            video {
+                top: 0px;
+                left: 0px;
+                min-width: 100%;
+                z-index: 1;
+            }
+        }
+    }
+
+
+
+    .header_title {
+        height: 15%;
+        min-height: 180px;
+        display: block;
+        position: absolute;
+        top: 8vh;
+        margin-top: 90px;
+        width: 100%;
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    section {
+        .platter {
+            max-width: 1320px;
+        }
+    }
+}
+
+@media only screen and (max-height: 1200px) {
+    section#bigimage {
+
+        .header_title {
+            top: 4vh;
+            height: 24%;
+        }
+    }
+}
+
+@media only screen and (min-height: 900px) and (max-width: 1600px) {
+    section#bigimage {
+        .banner {
+            max-height: 600px;
+        }
+
+        .header_title {
+            top: 4vh;
+            height: 24%;
+
+
+        }
+    }
+}
+
+@media only screen and (min-height: 900px) and (max-width: 1400px) {
+    section#bigimage {
+        .banner {
+            max-height: 550px;
+        }
+
+        .header_title {
+            top: 5vh;
+            height: 18%;
+        }
+    }
+}
+
+@media only screen and (min-height: 900px) and (max-width: 1290px) {
+    section#bigimage {
+        .banner {
+            max-height: 500px;
+        }
+
+        .header_title {
+            top: 2.5vh;
+            height: 10%;
+        }
+    }
+}
+
+section#content {
+    overflow: visible;
+    padding: 0;
+    background: -webkit-linear-gradient(#F9F9F9, #F6F6F6);
+    background: linear-gradient(#F9F9F9, #F6F6F6);
+    position: relative;
+    z-index: 0;
+
+    &:after {
+        clear: both;
+        content: ' ';
+        display: table;
+    }
+
+    .platter {
+        top: -168px;
+        margin-bottom: -104px;
+    }
+}
+
+@media only screen and (max-width: 1160px) {
+
+    body {
+        &.page-template-default,
+        &.post-type-archive-espresso_events {
+
+            section#bigimage {
+                .banner {
+                    min-height: 200px;
+                    height: 40vh;
+                }
+            }
+
+            section#content .platter {
+                top: inherit;
+                margin-bottom: 0;
+            }
+        }
+
+        &.page-child {
+            section#bigimage {
+
+                .header_title {
+                    margin-top: 100px;
+                }
+            }
+        }
+    }
+
+    section#bigimage {
+        .banner {
+            min-height: 200px;
+            height: 40vh;
+        }
+
+        .header_title {
+            top: 5vh;
+            height: 20vh;
+            min-height: 130px;
+            margin-top: 80px;
+        }
+    }
+
+    section#content {
+        .platter {
+            top: inherit;
+            margin-bottom: 0;
+            padding-top: 30px;
+        }
+    }
+}
+
+
+
+
+@media only screen and (max-width: 640px) {
+    section#bigimage {
+
+        .header_title {
+            width: 86%;
+            margin-left: 7%;
+        }
+    }
+
+
+}
+
+@media only screen and (max-width: 640px) and (min-height: 400px) {
+    section#bigimage {
+
+        .header_title {
+            width: 60%;
+            margin-left: 20%;
+            background-position: center;
+        }
+    }
+
+
+}
