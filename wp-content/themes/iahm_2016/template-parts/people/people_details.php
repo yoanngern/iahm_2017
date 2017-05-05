@@ -16,11 +16,13 @@ $label      = get_field( 'website_label', $person->ID );
 
 <section class="person">
 
-    <div class="picture">
-		<?php if ( ! empty( $avatar ) ) : ?>
+
+	<?php if ( ! empty( $avatar ) ) : ?>
+        <div class="picture">
             <img src="<?php echo $avatar['sizes']['avatar']; ?>" alt="">
-		<?php endif; ?>
-    </div>
+        </div>
+	<?php endif; ?>
+
 
     <div class="bio">
         <h2><?php echo $first_name . " " . $last_name; ?><?php
