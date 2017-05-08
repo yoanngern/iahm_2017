@@ -285,20 +285,25 @@ body.single-iahm_event {
 
         div.speakers,
         div.worship_leaders {
-            display: inline-block;
-            margin-right: 5%;
+            display: table;
+            margin-bottom: 30px;
+            width: 100%;
         }
 
         section.person {
             display: inline-block;
-            margin-top: 15px;
             padding-bottom: 30px;
+            width: 23%;
+            margin: 15px 1% 0;
+            //float: left;
+            text-align: center;
 
             div.picture {
                 display: inline-block;
                 vertical-align: top;
-                margin: 0 40px 0 0;
+                margin: 0 0 0 0;
                 //cursor: pointer;
+
 
                 img {
                     display: block;
@@ -333,6 +338,111 @@ body.single-iahm_event {
                 }
             }
         }
+
+        @media only screen and (max-width: 1100px) {
+
+            section.person {
+
+                div.picture {
+                    img {
+                        width: 150px;
+                    }
+                }
+            }
+        }
+
+        @media only screen and (max-width: 1000px) {
+
+            section.person {
+
+                div.picture {
+                    img {
+                        width: 130px;
+                    }
+                }
+            }
+        }
+
+        @media only screen and (max-width: 900px) {
+
+            section.person {
+                width: 31.3333%;
+
+                div.picture {
+                    img {
+                        width: 170px;
+                    }
+                }
+            }
+        }
+
+        @media only screen and (max-width: 800px) {
+
+            section.person {
+
+                div.picture {
+                    img {
+                        width: 150px;
+                    }
+                }
+            }
+        }
+
+        @media only screen and (max-width: 700px) {
+
+            section.person {
+
+                div.picture {
+                    img {
+                        width: 140px;
+                    }
+                }
+            }
+        }
+
+        @media only screen and (max-width: 650px) {
+
+            section.person {
+                width: 42%;
+                margin: 15px 2% 0;
+
+                div.picture {
+                    img {
+                        width: 170px;
+                    }
+                }
+            }
+        }
+
+
+        @media only screen and (max-width: 600px) {
+
+            section.person {
+                width: 46%;
+                margin: 15px 2% 0;
+
+                div.picture {
+                    img {
+                        width: 140px;
+                    }
+                }
+            }
+        }
+
+        @media only screen and (max-width: 400px) {
+
+            section.person {
+                width: 96%;
+                margin: 15px 2% 0;
+
+                div.picture {
+                    img {
+                        width: 170px;
+                    }
+                }
+            }
+        }
+
     }
 
     section#schedule {
