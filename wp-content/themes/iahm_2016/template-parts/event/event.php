@@ -4,7 +4,8 @@
         <article class="content-page iahm_event default">
 
             <div class="nav">
-                <a href="<?php echo get_post_type_archive_link('iahm_event'); ?>" class="back"><?php pll_e('Back') ?></a>
+                <a href="<?php echo get_post_type_archive_link( 'iahm_event' ); ?>"
+                   class="back"><?php pll_e( 'Back' ) ?></a>
 
             </div>
 
@@ -55,9 +56,9 @@
 
                     <div class="content">
 
-	                    <?php //the_content(); ?>
+						<?php //the_content(); ?>
 
-	                    <?php echo get_field( 'description' ); ?>
+						<?php echo get_field( 'description' ); ?>
 
 
                     </div>
@@ -180,19 +181,19 @@ if ( get_field( 'speakers' ) || get_field( 'worship_leaders' ) ):?>
                     <section class="day">
                         <div class="title">
                             <div class="bullet"></div>
-                            <h2><?php echo $date->format( 'l j' ); ?></h2>
+                            <h2><?php echo date_i18n( 'l j', strtotime( $date->format('d-m-Y') ) ); ?></h2>
                         </div>
                         <div class="line"></div>
 
 						<?php while ( have_rows( 'slot' ) ): the_row();
 
-							$time = get_sub_field( 'time' );
+							$date = new DateTime( '01-01-1970 ' . get_sub_field('time') );
 
 							?>
                             <article class="slot">
                                 <div class="bullet"></div>
 
-                                <time><?php _e($time); ?></time>
+                                <time><?php echo time_trans($date); ?></time>
                                 <div class="desc">
                                     <h3><?php echo get_sub_field( 'title' ); ?></h3>
                                     <span><?php echo get_sub_field( 'subtitle' ); ?></span>

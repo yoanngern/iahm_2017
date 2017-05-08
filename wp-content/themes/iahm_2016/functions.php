@@ -552,6 +552,18 @@ function get_related_posts( $post, $nb = 3 ) {
 	return $posts;
 }
 
+function time_trans( $date ) {
+	if ( get_locale() == "fr_FR" ) :
+
+		$time = date_i18n('H:i', strtotime( $date->format('H:i') ));
+
+	else:
+		$time = date_i18n('g:i a', strtotime( $date->format('H:i') ));
+	endif;
+
+	return $time;
+}
+
 function complex_date( $start, $end ) {
 
 	if ( $start != $end ):
@@ -650,7 +662,7 @@ function iahm_order_events( $query ) {
 
 
 	// only modify queries for 'iahm_event' post type
-	if ( !is_single() && isset( $query->query_vars['post_type'] ) && $query->query_vars['post_type'] == 'iahm_event' ) {
+	if ( ! is_single() && isset( $query->query_vars['post_type'] ) && $query->query_vars['post_type'] == 'iahm_event' ) {
 
 		$query->set( 'orderby', 'meta_value' );
 		$query->set( 'meta_key', 'start_date' );

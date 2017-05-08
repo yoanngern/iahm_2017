@@ -14,7 +14,11 @@
             <time><?php echo complex_date( get_field( 'start_date' ), get_field( 'end_date' ) ); ?><?php
 
 				if ( get_field( 'time' ) ) {
-					echo "<span> " . pll__( 'at' ) . " " . get_field( 'time' ) . "</span>";
+
+
+					$date = new DateTime( '01-01-1970 ' . get_field('time') );
+
+					echo "<span> " . pll__( 'at' ) . " " . time_trans($date) . "</span>";
 				}
 
 				?></time>
