@@ -4450,6 +4450,12 @@
 		"oAP": "\/template-parts\/blog\/index.php",
 		"oF": 0
 		},
+	"\/template-parts\/blog\/none.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/template-parts\/blog\/none.php",
+		"oF": 0
+		},
 	"\/template-parts\/event\/event-mg.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -4478,6 +4484,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/event\/list.php",
+		"oF": 0
+		},
+	"\/template-parts\/event\/none.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/template-parts\/event\/none.php",
 		"oF": 0
 		},
 	"\/template-parts\/event\/single.php": {

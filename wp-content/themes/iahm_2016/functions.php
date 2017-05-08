@@ -636,6 +636,16 @@ function iahm_order_events( $query ) {
 		$query->set( 'meta_key', 'start_date' );
 		$query->set( 'meta_key', 'end_date' );
 		$query->set( 'order', 'asc' );
+
+		$today = date( 'Ymd' );
+
+		$query->set( 'meta_query', array(
+			array(
+				'key'     => 'end_date',
+				'compare' => '>=',
+				'value'   => $today,
+			)
+		) );
 	}
 
 
@@ -658,6 +668,7 @@ function iahm_order_events( $query ) {
 		) );
 
 
+		/*
 		$query->set( 'meta_query', array(
 			array(
 				'key'     => 'start_date',
@@ -665,6 +676,7 @@ function iahm_order_events( $query ) {
 				'value'   => $today,
 			)
 		) );
+		*/
 
 
 	}

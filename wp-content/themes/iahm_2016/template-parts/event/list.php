@@ -9,36 +9,59 @@
         <header>
 
 
-			<?php if ( is_home() && ! is_front_page() ) : ?>
+            <div id="categories" data-tax="event-category" data-url="<?php echo pll_home_url(); ?>"
+                 data-path="events">
+		        <?php
+
+		        $exclude = array();
+		        $categories = get_terms( array(
+			        'taxonomy'   => 'iahm_eventcategory',
+			        'hide_empty' => 1,
+		        ) );
+
+		        foreach ( $categories as $category ) {
+
+			        $events = get_posts( array(
+				        'post_type'   => 'iahm_event',
+				        'numberposts' => - 1,
+				        'tax_query'   => array(
+					        array(
+						        'taxonomy'         => 'iahm_eventcategory',
+						        'field'            => 'id',
+						        'terms'            => $category->term_id, // Where term_id of Term 1 is "1".
+						        'include_children' => true
+					        )
+				        )
+			        ) );
+
+			        foreach ( $events as $key => $event ) {
+
+				        $end_date = get_field( "end_date", $event );
 
 
-                <div id="categories" data-tax="event-category" data-url="<?php echo pll_home_url(); ?>"
-                     data-path="events">
-					<?php
-					wp_dropdown_categories( array(
-						'show_option_all' => 'Filter events',
-						'value_field'     => 'slug',
-						'hierarchical'    => 1,
-						'taxonomy'        => 'iahm_eventcategory',
-						'selected'        => get_queried_object()->slug
-					) ); ?>
-                </div>
+				        if ( $end_date < date( 'Y-m-d' ) ) {
+					        unset( $events[ $key ] );
+				        }
+			        }
 
-			<?php else : ?>
+			        if ( ! count( $events ) ) {
 
-                <div id="categories" data-tax="event-category" data-url="<?php echo pll_home_url(); ?>"
-                     data-path="events">
-					<?php
-					wp_dropdown_categories( array(
-						'show_option_all' => pll__( 'Filter events' ),
-						'value_field'     => 'slug',
-						'hierarchical'    => 1,
-						'taxonomy'        => 'iahm_eventcategory',
-						'selected'        => get_queried_object()->slug
-					) ); ?>
-                </div>
+				        $exclude[] = $category->term_id;
+			        }
 
-			<?php endif; ?>
+		        }
+
+		        wp_dropdown_categories( array(
+			        'show_option_all' => pll__( 'Filter events' ),
+			        'value_field'     => 'slug',
+			        'hide_if_empty'   => false,
+			        'hide_empty'      => 1,
+			        'hierarchical'    => 1,
+			        'exclude'         => $exclude,
+			        'taxonomy'        => 'iahm_eventcategory',
+			        'selected'        => get_queried_object()->slug
+		        ) ); ?>
+            </div>
 
             <h1><?php pll_e( 'Upcoming Events' ); ?></h1>
 
@@ -78,7 +101,7 @@
 
 		else :
 
-			get_template_part( 'template-parts/blog/none' );
+			get_template_part( 'template-parts/event/none' );
 
 		endif;
 		?>
