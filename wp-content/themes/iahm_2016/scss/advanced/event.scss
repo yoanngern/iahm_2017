@@ -429,7 +429,19 @@ body.single-iahm_event {
             }
         }
 
-        @media only screen and (max-width: 400px) {
+        @media only screen and (max-width: 450px) {
+
+            section.person {
+
+                div.picture {
+                    img {
+                        width: 120px;
+                    }
+                }
+            }
+        }
+
+        @media only screen and (max-width: 360px) {
 
             section.person {
                 width: 96%;
