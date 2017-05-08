@@ -1,6 +1,5 @@
 <?php
 
-var_dump(  );
 
 if ( get_post_type( $_POST ) == "iahm_event" ):
 
