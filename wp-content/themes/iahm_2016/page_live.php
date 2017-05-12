@@ -20,7 +20,6 @@ if ( get_field( 'facebook_video' ) ):
 <?php endif; ?>
 
 <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/live.min.js"></script>
-<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/events.min.js"></script>
 
 
 <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Intl.~locale.fr"></script>
@@ -194,28 +193,6 @@ if ( get_field( 'facebook_video' ) ):
                  data-size="large" data-show-faces="true"></div>
         </article>
     </section>
-
-
-    <section id="listOfEvents" class="small" data-nb="3">
-        <article class="content-page">
-            <h1>Prochaines soirées...</h1>
-            <div class="insert"></div>
-        </article>
-    </section>
-
-    <script id="eventsList" type="text/x-handlebars-template">
-
-        {{#each events}}
-        <div class="event">
-            <a href="{{link}}">
-                <div id="{{ id }}" class="image" style="background-image: url('{{image}}')"></div>
-
-                <h2>{{title}}</h2>
-                <h3>{{formatDate date_start day="numeric" month="long" year="numeric"}}</h3>
-            </a>
-        </div>
-        {{/each}}
-    </script>
 
 
 	<?php get_footer(); ?>
