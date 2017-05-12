@@ -36,7 +36,7 @@
 						<div style="background-image: url('<?php echo $slide['bg']['sizes']['home']; ?>')">
 
 							<a class="image" href="<?php echo $slide['link']; ?>"
-							   style="background-image: url('<?php echo $slide['image']; ?>')"></a>
+							   style="background-image: url('<?php echo $slide['image']['sizes']['home_title']; ?>')"></a>
 							<h1><?php echo $slide['title']; ?></h1>
 
 						</div>
@@ -57,10 +57,10 @@
 
 					<li>
 						<a href="<?php the_sub_field( 'page' ); ?>"
-						   style="background-image: url('<?php the_sub_field( 'bg' ); ?>')">
+						   style="background-image: url('<?php echo get_sub_field( 'bg' )['sizes']['ad']; ?>')">
 
 							<div class="image"
-							     style="background-image: url('<?php the_sub_field( 'image' ); ?>')"></div>
+							     style="background-image: url('<?php echo get_sub_field( 'image' )['sizes']['ad_title']; ?>')"></div>
 						</a>
 					</li>
 

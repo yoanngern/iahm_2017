@@ -275,11 +275,14 @@ add_theme_support( 'post-thumbnails' );
 
 add_image_size( 'banner', 1050, 445, true );
 add_image_size( 'home', 1352, 1003, true );
+add_image_size( 'home_title', 491, 256, true );
 add_image_size( 'card', 300, 169, true );
 add_image_size( 'signature', 80, 80, true );
 add_image_size( 'banner_image', 1960, 524, true );
 add_image_size( 'title_image', 350, 180, false );
 add_image_size( 'avatar', 200, 200, true );
+add_image_size( 'ad', 360, 200, true );
+add_image_size( 'ad_title', 267, 74, true );
 
 
 /**
