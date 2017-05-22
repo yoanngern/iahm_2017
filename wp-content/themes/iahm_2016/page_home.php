@@ -16,7 +16,7 @@
 
 		if ( $slide['show'] ):
 
-			$nb_slides++;
+			$nb_slides ++;
 
 			?>
 
@@ -24,51 +24,57 @@
 		<?php endif; ?>
 	<?php endforeach; ?>
 
-		<section id="header_home">
-			<div id="slides" class="slidesjs" data-size="<?php echo $nb_slides; ?>" data-nav="true"
-			     data-pag="true" data-height="828">
+        <section id="header_home">
+            <div id="slides" class="slidesjs" data-size="<?php echo $nb_slides; ?>" data-nav="true"
+                 data-pag="true" data-height="828">
 				<?php foreach ( $slider as $slide ):
 
 					if ( $slide['show'] ):
 
+						if ( $slide['black'] ) {
+							$color = 'black';
+						} else {
+							$color = 'white';
+						}
+
 						?>
 
-						<div style="background-image: url('<?php echo $slide['bg']['sizes']['home']; ?>')">
+                        <div style="background-image: url('<?php echo $slide['bg']['sizes']['home']; ?>')">
 
-							<a class="image" href="<?php echo $slide['link']; ?>"
-							   style="background-image: url('<?php echo $slide['image']['sizes']['home_title']; ?>')"></a>
-							<h1><?php echo $slide['title']; ?></h1>
+                            <a class="image" href="<?php echo $slide['link']; ?>"
+                               style="background-image: url('<?php echo $slide['image']['sizes']['home_title']; ?>')"></a>
+                            <h1 class="<?php echo $color; ?>"><?php echo $slide['title']; ?></h1>
 
-						</div>
+                        </div>
 					<?php endif; ?>
 				<?php endforeach; ?>
-			</div>
-		</section>
+            </div>
+        </section>
 
 	<?php endif; ?>
 
 	<?php if ( have_rows( 'ads' ) ): ?>
 
-		<section id="pub">
+        <section id="pub">
 
-			<ul>
+            <ul>
 
 				<?php while ( have_rows( 'ads' ) ): the_row(); ?>
 
-					<li>
-						<a href="<?php the_sub_field( 'page' ); ?>"
-						   style="background-image: url('<?php echo get_sub_field( 'bg' )['sizes']['ad']; ?>')">
+                    <li>
+                        <a href="<?php the_sub_field( 'page' ); ?>"
+                           style="background-image: url('<?php echo get_sub_field( 'bg' )['sizes']['ad']; ?>')">
 
-							<div class="image"
-							     style="background-image: url('<?php echo get_sub_field( 'image' )['sizes']['ad_title']; ?>')"></div>
-						</a>
-					</li>
+                            <div class="image"
+                                 style="background-image: url('<?php echo get_sub_field( 'image' )['sizes']['ad_title']; ?>')"></div>
+                        </a>
+                    </li>
 
 				<?php endwhile; ?>
 
-			</ul>
+            </ul>
 
-		</section>
+        </section>
 
 	<?php endif; ?>
 

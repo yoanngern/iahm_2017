@@ -7,11 +7,15 @@ body.page-template-page_home {
         h1 {
             width: 100%;
             color: $white;
-            font-size: 2em;
+            font-size: 1.8em;
             bottom: 10%;
             position: absolute;
             text-align: center;
             font-family: $futura-i;
+
+            &.black {
+                color: $black;
+            }
         }
 
         a.image {
@@ -113,7 +117,7 @@ body.page-template-page_home {
         section#header_home {
 
             h1 {
-                font-size: 2.2em;
+                font-size: 2em;
             }
 
             a.image {
@@ -196,7 +200,7 @@ body.page-template-page_home {
         section#header_home {
 
             h1 {
-                font-size: 1.8em;
+                font-size: 1.7em;
             }
         }
 
@@ -496,7 +500,7 @@ body.page-template-page_home {
 
             h1 {
                 bottom: 6vh;
-                font-size: 1.4em;
+                font-size: 1.3em;
             }
 
         }
