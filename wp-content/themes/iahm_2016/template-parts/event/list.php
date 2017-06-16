@@ -55,7 +55,7 @@
 			        'show_option_all' => pll__( 'Filter events' ),
 			        'value_field'     => 'slug',
 			        'hide_if_empty'   => false,
-			        'hide_empty'      => 1,
+			        'hide_empty'      => 0,
 			        'hierarchical'    => 1,
 			        'exclude'         => $exclude,
 			        'taxonomy'        => 'iahm_eventcategory',
