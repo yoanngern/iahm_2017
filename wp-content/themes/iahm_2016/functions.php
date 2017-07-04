@@ -216,7 +216,7 @@ add_action( 'init', 'create_people' );
 
 
 /**
- * Speaker
+ * Location
  */
 function create_location() {
 	register_post_type( 'iahm_location',
@@ -259,6 +259,86 @@ function create_location() {
 add_action( 'init', 'create_location' );
 
 
+/**
+ * Testimonies
+ */
+function create_testimonies() {
+	register_post_type( 'iahm_testimony',
+		array(
+			'labels'                => array(
+				'name'          => __( 'Testimonies' ),
+				'singular_name' => __( 'Testimony' ),
+				'add_new'       => 'Add a testimony',
+				'all_items'     => 'All testimonies',
+			),
+			'public'                => true,
+			'can_export'            => true,
+			'show_ui'               => true,
+			'show_in_rest'          => true,
+			'rest_base'             => 'testimonies',
+			'rest_controller_class' => 'WP_REST_Posts_Controller',
+			'_builtin'              => false,
+			'has_archive'           => true,
+			'publicly_queryable'    => true,
+			'query_var'             => true,
+			'rewrite'               => array( "slug" => "testimonies" ),
+			'capability_type'       => 'post',
+			'hierarchical'          => false,
+			'menu_position'         => null,
+			'supports'              => array(
+				'title',
+				'editor',
+				//'excerpt',
+				//'thumbnail',
+				//'author',
+				//'trackbacks',
+				//'custom-fields',
+				//'comments',
+				//'revisions',
+				//'page-attributes', // (menu order, hierarchical must be true to show Parent option)
+				//'post-formats',
+			),
+			'menu_icon'             => 'dashicons-testimonial',
+			'taxonomies'            => array( 'iahm_testimonycategory', 'post_tag' ),
+			'exclude_from_search'   => false,
+		)
+	);
+}
+
+add_action( 'init', 'create_testimonies' );
+
+function create_testimonycategory_taxonomy() {
+
+	$labels = array(
+		'name'                       => _x( 'Categories', 'taxonomy general name' ),
+		'singular_name'              => _x( 'Testimony category', 'taxonomy singular name' ),
+		'search_items'               => __( 'Search Testimonies' ),
+		'popular_items'              => __( 'Popular Testimonies' ),
+		'all_items'                  => __( 'All testimony categories' ),
+		'parent_item'                => null,
+		'parent_item_colon'          => null,
+		'edit_item'                  => __( 'Edit Category' ),
+		'update_item'                => __( 'Update Category' ),
+		'add_new_item'               => __( 'Add New Category' ),
+		'new_item_name'              => __( 'New Category Name' ),
+		'separate_items_with_commas' => __( 'Separate categories with commas' ),
+		'add_or_remove_items'        => __( 'Add or remove categories' ),
+		'choose_from_most_used'      => __( 'Choose from the most used categories' ),
+	);
+
+	register_taxonomy( 'iahm_testimonycategory', 'iahm_testimonies', array(
+		'label'        => __( 'Testimony Category' ),
+		'labels'       => $labels,
+		'hierarchical' => true,
+		'show_ui'      => true,
+		'query_var'    => true,
+		'rewrite'      => array( 'slug' => 'event-category' ),
+	) );
+}
+
+add_action( 'init', 'create_testimonycategory_taxonomy', 0 );
+
+
 function register_my_menu() {
 	register_nav_menu( 'principal', __( 'Menu principal', 'iahm_conference' ) );
 	register_nav_menu( 'events', __( 'Menu events', 'iahm_conference' ) );
@@ -283,6 +363,7 @@ add_image_size( 'title_image', 350, 180, false );
 add_image_size( 'avatar', 200, 200, true );
 add_image_size( 'ad', 360, 200, true );
 add_image_size( 'ad_title', 267, 74, true );
+add_image_size( 'full_hd', 1920, 1080, true );
 
 
 /**
