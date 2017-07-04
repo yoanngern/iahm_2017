@@ -51,7 +51,7 @@
 	<?php if ( get_field( 'fb_image' ) ):
 		$meta_fb_image = get_field( 'fb_image' )['sizes']['full_hd'];;
 	else:
-		$meta_fb_image = "https://healing-ministries.org/wp-content/themes/iahm_2016/images/facebook_default_home.png";
+		$meta_fb_image = "https://healing-ministries.org/wp-content/themes/iahm_2016/images/facebook_default_home.jpg";
 	endif; ?>
 
     <meta property="og:title" content="<?php echo $meta_fb_title; ?>"/>

@@ -1239,15 +1239,14 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/facebook_default_home.png": {
-		"ft": 32768,
-		"iS": 2327336,
+	"\/images\/facebook_default_home.jpg": {
+		"ft": 16384,
+		"iS": 512949,
 		"oA": 0,
-		"oAP": "\/images\/facebook_default_home.png",
+		"oAP": "\/images\/facebook_default_home.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/favicon-16x16.png": {
