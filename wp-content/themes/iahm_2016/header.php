@@ -49,9 +49,9 @@
 	endif; ?>
 
 	<?php if ( get_field( 'fb_image' ) ):
-		$meta_fb_image = get_field( 'fb_image' )['sizes']['full_hd'];;
+		$meta_fb_image = get_field( 'fb_image' )['sizes']['full_hd'];
 	else:
-		$meta_fb_image = "http://healing-ministries.org/wp-content/themes/iahm_2016/images/facebook_default_home.jpg";
+		$meta_fb_image = "https://healing-ministries.org/wp-content/themes/iahm_2016/images/facebook_default_home.jpg";
 	endif; ?>
 
     <meta property="og:type" content="website"/>
