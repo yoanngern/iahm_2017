@@ -639,10 +639,10 @@ function get_related_posts( $post, $nb = 3 ) {
 function time_trans( $date ) {
 	if ( get_locale() == "fr_FR" ) :
 
-		$time = date_i18n('H:i', strtotime( $date->format('H:i') ));
+		$time = date_i18n( 'H:i', strtotime( $date->format( 'H:i' ) ) );
 
 	else:
-		$time = date_i18n('g:i a', strtotime( $date->format('H:i') ));
+		$time = date_i18n( 'g:i a', strtotime( $date->format( 'H:i' ) ) );
 	endif;
 
 	return $time;
@@ -780,3 +780,30 @@ function iahm_order_events( $query ) {
 }
 
 add_action( 'pre_get_posts', 'iahm_order_events' );
+
+
+/**
+ * Register custom RSS template.
+ */
+function iahm_event_rss_template() {
+	add_feed( 'event', 'iahm_event_rss_render' );
+
+	add_feed( 'mg', 'iahm_mg_rss_render' );
+}
+
+add_action( 'after_setup_theme', 'iahm_event_rss_template' );
+
+
+/**
+ * Custom RSS template callback.
+ */
+function iahm_event_rss_render() {
+	get_template_part( 'feed', 'event' );
+}
+
+/**
+ * Custom RSS template callback.
+ */
+function iahm_mg_rss_render() {
+	get_template_part( 'feed', 'mg' );
+}

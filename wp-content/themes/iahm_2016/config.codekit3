@@ -7,27 +7,31 @@
 		"uuidString": "1D0A0F81-8219-4547-91A9-3C716911AAB3"
 		}
 	],
-"creatorBuild": "25900",
+"creatorBuild": "26148",
 "files": {
 	"\/404.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/404.php",
 		"oF": 0
 		},
 	"\/archive-iahm_speaker.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/archive-iahm_speaker.php",
 		"oF": 0
 		},
 	"\/browserconfig.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/browserconfig.xml",
 		"oF": 0
 		},
 	"\/content-page.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/content-page.php",
@@ -44,180 +48,224 @@
 		"oS": 0
 		},
 	"\/events.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/events.php",
 		"oF": 0
 		},
+	"\/feed-event.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/feed-event.php",
+		"oF": 0
+		},
+	"\/feed-mg.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/feed-mg.php",
+		"oF": 0
+		},
 	"\/fonts\/2F483F_0_0.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/2F483F_0_0.eot",
 		"oF": 0
 		},
 	"\/fonts\/2F483F_0_0.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/2F483F_0_0.ttf",
 		"oF": 0
 		},
 	"\/fonts\/2F483F_0_0.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/2F483F_0_0.woff",
 		"oF": 0
 		},
 	"\/fonts\/2F483F_0_0.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/2F483F_0_0.woff2",
 		"oF": 0
 		},
 	"\/fonts\/2F483F_1_0.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/2F483F_1_0.eot",
 		"oF": 0
 		},
 	"\/fonts\/2F483F_1_0.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/2F483F_1_0.ttf",
 		"oF": 0
 		},
 	"\/fonts\/2F483F_1_0.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/2F483F_1_0.woff",
 		"oF": 0
 		},
 	"\/fonts\/2F483F_1_0.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/2F483F_1_0.woff2",
 		"oF": 0
 		},
 	"\/fonts\/309DFA_0_0.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/309DFA_0_0.eot",
 		"oF": 0
 		},
 	"\/fonts\/309DFA_0_0.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/309DFA_0_0.ttf",
 		"oF": 0
 		},
 	"\/fonts\/309DFA_0_0.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/309DFA_0_0.woff",
 		"oF": 0
 		},
 	"\/fonts\/309DFA_0_0.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/309DFA_0_0.woff2",
 		"oF": 0
 		},
 	"\/fonts\/309DFA_1_0.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/309DFA_1_0.eot",
 		"oF": 0
 		},
 	"\/fonts\/309DFA_1_0.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/309DFA_1_0.ttf",
 		"oF": 0
 		},
 	"\/fonts\/309DFA_1_0.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/309DFA_1_0.woff",
 		"oF": 0
 		},
 	"\/fonts\/309DFA_1_0.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/309DFA_1_0.woff2",
 		"oF": 0
 		},
 	"\/fonts\/309DFA_2_0.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/309DFA_2_0.eot",
 		"oF": 0
 		},
 	"\/fonts\/309DFA_2_0.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/309DFA_2_0.ttf",
 		"oF": 0
 		},
 	"\/fonts\/309DFA_2_0.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/309DFA_2_0.woff",
 		"oF": 0
 		},
 	"\/fonts\/309DFA_2_0.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/309DFA_2_0.woff2",
 		"oF": 0
 		},
 	"\/fonts\/3139B7_0_0.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/3139B7_0_0.eot",
 		"oF": 0
 		},
 	"\/fonts\/3139B7_0_0.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/3139B7_0_0.ttf",
 		"oF": 0
 		},
 	"\/fonts\/3139B7_0_0.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/3139B7_0_0.woff",
 		"oF": 0
 		},
 	"\/fonts\/3139B7_0_0.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/3139B7_0_0.woff2",
 		"oF": 0
 		},
 	"\/fonts\/3139B7_1_0.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/3139B7_1_0.eot",
 		"oF": 0
 		},
 	"\/fonts\/3139B7_1_0.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/3139B7_1_0.ttf",
 		"oF": 0
 		},
 	"\/fonts\/3139B7_1_0.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/3139B7_1_0.woff",
 		"oF": 0
 		},
 	"\/fonts\/3139B7_1_0.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/3139B7_1_0.woff2",
 		"oF": 0
 		},
 	"\/fonts\/titillium-black-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-black-webfont.eot",
@@ -234,24 +282,28 @@
 		"prP": 0
 		},
 	"\/fonts\/titillium-black-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-black-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/titillium-black-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-black-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/titillium-black-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-black-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/titillium-bold-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-bold-webfont.eot",
@@ -268,24 +320,28 @@
 		"prP": 0
 		},
 	"\/fonts\/titillium-bold-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-bold-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/titillium-bold-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-bold-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/titillium-bold-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-bold-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/titillium-bolditalic-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-bolditalic-webfont.eot",
@@ -302,24 +358,28 @@
 		"prP": 0
 		},
 	"\/fonts\/titillium-bolditalic-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-bolditalic-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/titillium-bolditalic-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-bolditalic-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/titillium-bolditalic-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-bolditalic-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/titillium-boldupright-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-boldupright-webfont.eot",
@@ -336,24 +396,28 @@
 		"prP": 0
 		},
 	"\/fonts\/titillium-boldupright-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-boldupright-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/titillium-boldupright-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-boldupright-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/titillium-boldupright-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-boldupright-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/titillium-light-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-light-webfont.eot",
@@ -370,24 +434,28 @@
 		"prP": 0
 		},
 	"\/fonts\/titillium-light-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-light-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/titillium-light-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-light-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/titillium-light-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-light-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/titillium-lightitalic-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-lightitalic-webfont.eot",
@@ -404,24 +472,28 @@
 		"prP": 0
 		},
 	"\/fonts\/titillium-lightitalic-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-lightitalic-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/titillium-lightitalic-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-lightitalic-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/titillium-lightitalic-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-lightitalic-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/titillium-lightupright-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-lightupright-webfont.eot",
@@ -438,24 +510,28 @@
 		"prP": 0
 		},
 	"\/fonts\/titillium-lightupright-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-lightupright-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/titillium-lightupright-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-lightupright-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/titillium-lightupright-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-lightupright-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/titillium-regular-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-regular-webfont.eot",
@@ -472,24 +548,28 @@
 		"prP": 0
 		},
 	"\/fonts\/titillium-regular-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-regular-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/titillium-regular-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-regular-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/titillium-regular-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-regular-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/titillium-regularitalic-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-regularitalic-webfont.eot",
@@ -506,24 +586,28 @@
 		"prP": 0
 		},
 	"\/fonts\/titillium-regularitalic-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-regularitalic-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/titillium-regularitalic-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-regularitalic-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/titillium-regularitalic-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-regularitalic-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/titillium-regularupright-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-regularupright-webfont.eot",
@@ -540,24 +624,28 @@
 		"prP": 0
 		},
 	"\/fonts\/titillium-regularupright-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-regularupright-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/titillium-regularupright-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-regularupright-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/titillium-regularupright-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-regularupright-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/titillium-semibold-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-semibold-webfont.eot",
@@ -574,24 +662,28 @@
 		"prP": 0
 		},
 	"\/fonts\/titillium-semibold-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-semibold-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/titillium-semibold-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-semibold-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/titillium-semibold-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-semibold-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/titillium-semibolditalic-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-semibolditalic-webfont.eot",
@@ -608,24 +700,28 @@
 		"prP": 0
 		},
 	"\/fonts\/titillium-semibolditalic-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-semibolditalic-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/titillium-semibolditalic-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-semibolditalic-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/titillium-semibolditalic-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-semibolditalic-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/titillium-semiboldupright-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-semiboldupright-webfont.eot",
@@ -642,24 +738,28 @@
 		"prP": 0
 		},
 	"\/fonts\/titillium-semiboldupright-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-semiboldupright-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/titillium-semiboldupright-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-semiboldupright-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/titillium-semiboldupright-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-semiboldupright-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/titillium-thin-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-thin-webfont.eot",
@@ -676,24 +776,28 @@
 		"prP": 0
 		},
 	"\/fonts\/titillium-thin-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-thin-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/titillium-thin-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-thin-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/titillium-thin-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-thin-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/titillium-thinitalic-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-thinitalic-webfont.eot",
@@ -710,24 +814,28 @@
 		"prP": 0
 		},
 	"\/fonts\/titillium-thinitalic-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-thinitalic-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/titillium-thinitalic-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-thinitalic-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/titillium-thinitalic-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-thinitalic-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/titillium-thinupright-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-thinupright-webfont.eot",
@@ -744,72 +852,84 @@
 		"prP": 0
 		},
 	"\/fonts\/titillium-thinupright-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-thinupright-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/titillium-thinupright-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-thinupright-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/titillium-thinupright-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/titillium-thinupright-webfont.woff2",
 		"oF": 0
 		},
 	"\/footer.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/footer.php",
 		"oF": 0
 		},
 	"\/functions.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/functions.php",
 		"oF": 0
 		},
 	"\/header-default.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/header-default.php",
 		"oF": 0
 		},
 	"\/header-event.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/header-event.php",
 		"oF": 0
 		},
 	"\/header-events.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/header-events.php",
 		"oF": 0
 		},
 	"\/header-form.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/header-form.php",
 		"oF": 0
 		},
 	"\/header-intro.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/header-intro.php",
 		"oF": 0
 		},
 	"\/header-subnav.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/header-subnav.php",
 		"oF": 0
 		},
 	"\/header.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/header.php",
@@ -1283,6 +1403,7 @@
 		"q": 100
 		},
 	"\/images\/favicon.ico": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/images\/favicon.ico",
@@ -1438,6 +1559,7 @@
 		"q": 100
 		},
 	"\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/index.php",
@@ -1564,6 +1686,7 @@
 		"tS": 0
 		},
 	"\/js\/vendor\/handlebars-intl\/handlebars-intl-with-locales.js.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/js\/vendor\/handlebars-intl\/handlebars-intl-with-locales.js.map",
@@ -1580,6 +1703,7 @@
 		"tS": 0
 		},
 	"\/js\/vendor\/handlebars-intl\/handlebars-intl-with-locales.min.js.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/js\/vendor\/handlebars-intl\/handlebars-intl-with-locales.min.js.map",
@@ -1596,6 +1720,7 @@
 		"tS": 0
 		},
 	"\/js\/vendor\/handlebars-intl\/handlebars-intl.js.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/js\/vendor\/handlebars-intl\/handlebars-intl.js.map",
@@ -1612,6 +1737,7 @@
 		"tS": 0
 		},
 	"\/js\/vendor\/handlebars-intl\/handlebars-intl.min.js.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/js\/vendor\/handlebars-intl\/handlebars-intl.min.js.map",
@@ -3978,72 +4104,84 @@
 		"tS": 0
 		},
 	"\/Kuler\/Api.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Kuler\/Api.php",
 		"oF": 0
 		},
 	"\/Kuler\/Comment.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Kuler\/Comment.php",
 		"oF": 0
 		},
 	"\/Kuler\/Exception.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Kuler\/Exception.php",
 		"oF": 0
 		},
 	"\/Kuler\/Theme.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Kuler\/Theme.php",
 		"oF": 0
 		},
 	"\/page.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page.php",
 		"oF": 0
 		},
 	"\/page_custom.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page_custom.php",
 		"oF": 0
 		},
 	"\/page_elementor.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page_elementor.php",
 		"oF": 0
 		},
 	"\/page_events.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page_events.php",
 		"oF": 0
 		},
 	"\/page_form.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page_form.php",
 		"oF": 0
 		},
 	"\/page_home.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page_home.php",
 		"oF": 0
 		},
 	"\/page_intro.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page_intro.php",
 		"oF": 0
 		},
 	"\/page_live.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page_live.php",
@@ -4061,348 +4199,406 @@
 		"q": 100
 		},
 	"\/scss\/.sass-cache\/00dca98eae06ac6314d1ad7a2c04afa3b608a258\/_admin.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/00dca98eae06ac6314d1ad7a2c04afa3b608a258\/_admin.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/00dca98eae06ac6314d1ad7a2c04afa3b608a258\/_color.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/00dca98eae06ac6314d1ad7a2c04afa3b608a258\/_color.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/00dca98eae06ac6314d1ad7a2c04afa3b608a258\/_font.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/00dca98eae06ac6314d1ad7a2c04afa3b608a258\/_font.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/00dca98eae06ac6314d1ad7a2c04afa3b608a258\/_functions.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/00dca98eae06ac6314d1ad7a2c04afa3b608a258\/_functions.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/00dca98eae06ac6314d1ad7a2c04afa3b608a258\/_intro.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/00dca98eae06ac6314d1ad7a2c04afa3b608a258\/_intro.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/00dca98eae06ac6314d1ad7a2c04afa3b608a258\/admin.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/00dca98eae06ac6314d1ad7a2c04afa3b608a258\/admin.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/00dca98eae06ac6314d1ad7a2c04afa3b608a258\/intro.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/00dca98eae06ac6314d1ad7a2c04afa3b608a258\/intro.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/00dca98eae06ac6314d1ad7a2c04afa3b608a258\/style.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/00dca98eae06ac6314d1ad7a2c04afa3b608a258\/style.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/content.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/content.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/custom.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/custom.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/espresso_events.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/espresso_events.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/events.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/events.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/footer.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/footer.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/header.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/header.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/home.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/home.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/slider.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/slider.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/subnav.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/subnav.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/57571046503df43045dcc1036c4603fac1068ee9\/_color.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/57571046503df43045dcc1036c4603fac1068ee9\/_color.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/57571046503df43045dcc1036c4603fac1068ee9\/_font.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/57571046503df43045dcc1036c4603fac1068ee9\/_font.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/57571046503df43045dcc1036c4603fac1068ee9\/_functions.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/57571046503df43045dcc1036c4603fac1068ee9\/_functions.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/57571046503df43045dcc1036c4603fac1068ee9\/_intro.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/57571046503df43045dcc1036c4603fac1068ee9\/_intro.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/57571046503df43045dcc1036c4603fac1068ee9\/_reset.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/57571046503df43045dcc1036c4603fac1068ee9\/_reset.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/5d2ac9a37c980aa2651256cf71ae1a559aee4c9c\/style.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/5d2ac9a37c980aa2651256cf71ae1a559aee4c9c\/style.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/80509735523dc04b22d4df3d925f2e8b029f9950\/_admin.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/80509735523dc04b22d4df3d925f2e8b029f9950\/_admin.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/80509735523dc04b22d4df3d925f2e8b029f9950\/_color.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/80509735523dc04b22d4df3d925f2e8b029f9950\/_color.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/80509735523dc04b22d4df3d925f2e8b029f9950\/_font.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/80509735523dc04b22d4df3d925f2e8b029f9950\/_font.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/80509735523dc04b22d4df3d925f2e8b029f9950\/_footer.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/80509735523dc04b22d4df3d925f2e8b029f9950\/_footer.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/80509735523dc04b22d4df3d925f2e8b029f9950\/_functions.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/80509735523dc04b22d4df3d925f2e8b029f9950\/_functions.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/80509735523dc04b22d4df3d925f2e8b029f9950\/_header.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/80509735523dc04b22d4df3d925f2e8b029f9950\/_header.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/80509735523dc04b22d4df3d925f2e8b029f9950\/_intro.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/80509735523dc04b22d4df3d925f2e8b029f9950\/_intro.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/80509735523dc04b22d4df3d925f2e8b029f9950\/_reset.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/80509735523dc04b22d4df3d925f2e8b029f9950\/_reset.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/80509735523dc04b22d4df3d925f2e8b029f9950\/_slides.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/80509735523dc04b22d4df3d925f2e8b029f9950\/_slides.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/80509735523dc04b22d4df3d925f2e8b029f9950\/style.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/80509735523dc04b22d4df3d925f2e8b029f9950\/style.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/9388b68e6cf3aaf3f3fe9e4ccb4fd4f4be85643e\/_color.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/9388b68e6cf3aaf3f3fe9e4ccb4fd4f4be85643e\/_color.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/9388b68e6cf3aaf3f3fe9e4ccb4fd4f4be85643e\/_font.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/9388b68e6cf3aaf3f3fe9e4ccb4fd4f4be85643e\/_font.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/9388b68e6cf3aaf3f3fe9e4ccb4fd4f4be85643e\/_functions.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/9388b68e6cf3aaf3f3fe9e4ccb4fd4f4be85643e\/_functions.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/9388b68e6cf3aaf3f3fe9e4ccb4fd4f4be85643e\/_intro.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/9388b68e6cf3aaf3f3fe9e4ccb4fd4f4be85643e\/_intro.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/9388b68e6cf3aaf3f3fe9e4ccb4fd4f4be85643e\/_reset.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/9388b68e6cf3aaf3f3fe9e4ccb4fd4f4be85643e\/_reset.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/9b79a7c401b767d340130330b9c09707a7d97346\/_admin.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/9b79a7c401b767d340130330b9c09707a7d97346\/_admin.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/9b79a7c401b767d340130330b9c09707a7d97346\/_color.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/9b79a7c401b767d340130330b9c09707a7d97346\/_color.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/9b79a7c401b767d340130330b9c09707a7d97346\/_font.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/9b79a7c401b767d340130330b9c09707a7d97346\/_font.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/9b79a7c401b767d340130330b9c09707a7d97346\/_footer.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/9b79a7c401b767d340130330b9c09707a7d97346\/_footer.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/9b79a7c401b767d340130330b9c09707a7d97346\/_functions.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/9b79a7c401b767d340130330b9c09707a7d97346\/_functions.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/9b79a7c401b767d340130330b9c09707a7d97346\/_header.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/9b79a7c401b767d340130330b9c09707a7d97346\/_header.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/9b79a7c401b767d340130330b9c09707a7d97346\/_intro.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/9b79a7c401b767d340130330b9c09707a7d97346\/_intro.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/9b79a7c401b767d340130330b9c09707a7d97346\/_map.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/9b79a7c401b767d340130330b9c09707a7d97346\/_map.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/9b79a7c401b767d340130330b9c09707a7d97346\/_reset.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/9b79a7c401b767d340130330b9c09707a7d97346\/_reset.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/9b79a7c401b767d340130330b9c09707a7d97346\/_slides.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/9b79a7c401b767d340130330b9c09707a7d97346\/_slides.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/9b79a7c401b767d340130330b9c09707a7d97346\/style.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/9b79a7c401b767d340130330b9c09707a7d97346\/style.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/content.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/content.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/custom.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/custom.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/espresso_events.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/espresso_events.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/events.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/events.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/footer.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/footer.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/header.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/header.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/subnav.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/subnav.scssc",
 		"oF": 0
 		},
 	"\/scss\/advanced\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/footer.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/advanced\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/footer.scssc",
 		"oF": 0
 		},
 	"\/scss\/advanced\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/header.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scss\/advanced\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/header.scssc",
@@ -4689,6 +4885,7 @@
 		"uL": 1
 		},
 	"\/single-iahm_speaker.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/single-iahm_speaker.php",
@@ -4705,66 +4902,77 @@
 		"oS": 0
 		},
 	"\/template-parts\/blog\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/blog\/index.php",
 		"oF": 0
 		},
 	"\/template-parts\/blog\/none.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/blog\/none.php",
 		"oF": 0
 		},
 	"\/template-parts\/event\/event-mg.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/event\/event-mg.php",
 		"oF": 0
 		},
 	"\/template-parts\/event\/event.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/event\/event.php",
 		"oF": 0
 		},
 	"\/template-parts\/event\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/event\/index.php",
 		"oF": 0
 		},
 	"\/template-parts\/event\/item.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/event\/item.php",
 		"oF": 0
 		},
 	"\/template-parts\/event\/list.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/event\/list.php",
 		"oF": 0
 		},
 	"\/template-parts\/event\/none.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/event\/none.php",
 		"oF": 0
 		},
 	"\/template-parts\/event\/single.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/event\/single.php",
 		"oF": 0
 		},
 	"\/template-parts\/people\/people_details.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/people\/people_details.php",
 		"oF": 0
 		},
 	"\/template-parts\/people\/people_simple.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/people\/people_simple.php",
@@ -5315,6 +5523,10 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
@@ -5379,9 +5591,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -5411,6 +5623,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -5420,14 +5636,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -6169,7 +6377,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "new.healing-ministries.org",
+	"externalServerAddress": "healing-ministries.org",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -6531,7 +6739,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 2,
@@ -6564,6 +6773,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -6605,7 +6815,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -6637,13 +6848,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -6652,7 +6863,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -6672,7 +6884,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -6700,7 +6913,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
