@@ -64,6 +64,11 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
 	$last = date( "Ymd", strtotime(date( "Y-m-t  H:i:s", strtotime( "+1 month" ) )) );
 
 
+	var_dump(get_field('end_date'));
+	var_dump($first);
+
+	var_dump(get_field('start_date'));
+	var_dump($last);
 
 	$query->set( 'meta_query', array(
 		array(
