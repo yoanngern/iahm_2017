@@ -72,8 +72,8 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
 			'value'   => $first,
 		),
 		array(
-			'key'     => 'start_date',
-			'compare' => '>',
+			'key'     => 'end_date',
+			'compare' => '<=',
 			'value'   => $last,
 		)
 	) );
