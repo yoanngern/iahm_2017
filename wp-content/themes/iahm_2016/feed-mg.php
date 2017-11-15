@@ -20,7 +20,7 @@ header( 'Content-Type: application/atom+xml; charset=' . get_option( 'blog_chars
 echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>'; ?>
 
 <feed xmlns:atom="http://www.w3.org/2005/Atom"
-      xmlns:media=http://search.yahoo.com/mrss/>
+      xmlns:media="http://search.yahoo.com/mrss/">
     <id><?php bloginfo_rss( 'url' ) ?></id>
     <title><?php bloginfo_rss( 'name' ); ?></title>
     <updated><?php echo mysql2date( 'D, d M Y H:i:s +0000', get_lastpostmodified( 'GMT' ), false ); ?></updated>
