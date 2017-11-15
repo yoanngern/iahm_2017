@@ -68,7 +68,7 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
                     url="<?php echo get_field_or_parent( 'thumb', get_the_ID(), 'iahm_eventcategory' )['sizes']['card']; ?>"
                     type="image/jpg"/>
             <summary type="html"></summary>
-            <content type="html"><?php echo get_the_content(); ?></content>
+            <content type="html"></content>
         </entry>
 
 	<?php endforeach; ?>
