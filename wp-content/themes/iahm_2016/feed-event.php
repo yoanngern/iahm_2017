@@ -98,11 +98,7 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
 
 				}
 
-			endforeach;
-
-			if ( !$is_mg ) {
-				  return;
-			}
+			endforeach; ?>
 
 			?>
 

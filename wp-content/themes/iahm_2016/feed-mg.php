@@ -9,6 +9,17 @@
  */
 
 
+$date = complex_date( get_field( 'start_date' ), get_field( 'end_date' ) );
+
+if ( get_field( 'time' ) ) {
+
+
+	$date_time = new DateTime( '01-01-1970 ' . get_field( 'time' ) );
+
+	$date .= pll__( 'at' ) . " " . time_trans( $date_time );
+}
+
+
 /**
  * Feed defaults.
  */
@@ -61,9 +72,10 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
             <id><?php the_guid(); ?></id>
             <title type="html"><![CDATA[<?php the_title(); ?>]]></title>
             <author>
-                <name>Jean-Luc</name>
+                <name>Claire-Lise Cherpillod</name>
+                <name>Jean-Luc Trachsel</name>
             </author>
-            <updated></updated>
+            <pubDate><?php echo $date; ?></pubDate>
             <link rel="alternate" type="text/html" href="<?php the_permalink_rss(); ?>"/>
             <media:content
                     url="<?php echo get_field_or_parent( 'thumb', get_the_ID(), 'iahm_eventcategory' )['sizes']['card']; ?>"
