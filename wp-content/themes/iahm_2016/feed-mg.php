@@ -82,10 +82,10 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
 	while ( $query->have_posts() ) : $query->the_post();
 
 
-		var_dump( get_field( 'start_date' ) );
-		var_dump( get_field( 'time' ) );
+		//var_dump( get_field( 'start_date' ) );
+		//var_dump( get_field( 'time' ) );
 
-		$date = date_create_from_format( 'd/j/Y H:i:s', get_field( 'start_date' ) . " " . get_field( 'time' ) );
+		$date = date_create_from_format( 'Y-j-d H:i:s', get_field( 'start_date' ) . " " . get_field( 'time' ) );
 
 		$speaker_name = "";
 
@@ -112,7 +112,7 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
 			endforeach;
 		}
 
-		var_dump( $date );
+		//var_dump( $date );
 
 
 		?>
