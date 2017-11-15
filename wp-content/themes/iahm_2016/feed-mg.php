@@ -54,14 +54,14 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
 	$query->set( 'meta_key', 'end_date' );
 	$query->set( 'order', 'asc' );
 
-	$today = date( 'Ymd' );
+	$today = date( 'Y-m-d' );
 
-	$first = date( "Ymd", strtotime( date( 'm', strtotime( '+1 month' ) ) . '/01/' . date( 'Y' ) . ' 00:00:00' ) );
+	$first = date( "Y-m-d", strtotime( date( 'm', strtotime( '+1 month' ) ) . '/01/' . date( 'Y' ) . ' 00:00:00' ) );
 
 	$created_timestamp = date( "Y-m-t  H:i:s", strtotime( "+1 month" ) );
 
 
-	$last = date( "Ymd", strtotime(date( "Y-m-t  H:i:s", strtotime( "+1 month" ) )) );
+	$last = date( "Y-m-d", strtotime(date( "Y-m-t  H:i:s", strtotime( "+1 month" ) )) );
 
 
 	$query->set( 'meta_query', array(
