@@ -36,13 +36,39 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
 
 	$query = new WP_Query( array(
 		'post_type'   => 'iahm_event',
-		'post_status' => 'publish'
+		'post_status' => 'publish',
+		'tax_query'   => array(
+			array(
+				'taxonomy' => 'iahm_eventcategory',
+				'field'    => 'slug',
+				'terms'    => array( 'mg' )
+			)
+		)
+
 	) );
+
+	$query->set( 'orderby', 'meta_value' );
+	$query->set( 'meta_key', 'start_date' );
+	$query->set( 'meta_key', 'end_date' );
+	$query->set( 'order', 'asc' );
+
+	$today = date( 'Ymd' );
+
+	$query->set( 'meta_query', array(
+		array(
+			'key'              => 'end_date',
+			'compare'          => '>=',
+			'value'            => $today,
+			'include_children' => true,
+		)
+	) );
+
+
+	//var_dump( $query );
 
 
 	$events = $query->get_posts();
 
-	//var_dump( $events );
 
 	wp_reset_query();
 
@@ -50,37 +76,37 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
 	?>
 
     <!-- Start loop -->
-	<?php foreach ( $events as $event ):
+	<?php
 
-		$post = $event;
+	while ( $query->have_posts() ) : $query->the_post();
 
-		//$date = complex_date( get_field( 'start_date' ), get_field( 'end_date' ) );
 
-		$date = new DateTime( get_field( 'start_date' ) . get_field( 'time' ) );
+		$date = DateTime::createFromFormat( 'd/j/Y H:i:s', get_field( 'start_date' ) . " " . get_field( 'time' ) );
 
 		$speaker_name = "";
 
 
+		if ( get_field( 'speakers' ) ) {
+			foreach ( get_field( 'speakers' ) as $speaker ) :
 
-		foreach ( get_field( 'speakers' ) as $speaker ) :
+				$person = get_post( $speaker );
 
-			$person = get_post( $speaker );
+				$first_name = get_field( 'first_name', $person->ID );
+				$last_name  = get_field( 'last_name', $person->ID );
+				$country_id = get_field( 'country_id', $person->ID );
 
-			$first_name = get_field( 'first_name', $person->ID );
-			$last_name  = get_field( 'last_name', $person->ID );
-			$country_id = get_field( 'country_id', $person->ID );
+				if ( $speaker_name != "" ) {
+					$speaker_name .= " | ";
+				}
 
-			if($speaker_name != "") {
-			    $speaker_name .= " | ";
-            }
+				$speaker_name .= $first_name . " " . $last_name;
 
-			$speaker_name .= $first_name . " " . $last_name;
+				if ( $country_id ) {
+					$speaker_name .= " (" . $country_id . ")";
+				}
 
-			if ( $country_id ) {
-				$speaker_name .= " (" . $country_id . ")";
-			}
-
-		endforeach;
+			endforeach;
+		}
 
 
 		?>
@@ -92,7 +118,7 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
             <author>
                 <name><?php echo $speaker_name; ?></name>
             </author>
-            <pubDate><?php echo date_format($date, 'Y-m-d\TH:i:sP'); ?></pubDate>
+            <pubDate><?php echo date_format( $date, 'Y-m-d\TH:i:sP' ); ?></pubDate>
             <link rel="alternate" type="text/html" href="<?php the_permalink_rss(); ?>"/>
             <media:content
                     url="<?php echo get_field_or_parent( 'thumb', get_the_ID(), 'iahm_eventcategory' )['sizes']['card']; ?>"
@@ -101,7 +127,7 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
             <content type="html"><![CDATA[<?php echo "<p>test</p>" ?>]]></content>
         </entry>
 
-	<?php endforeach; ?>
+	<?php endwhile; ?>
     <!-- End loop -->
 
 </feed>
