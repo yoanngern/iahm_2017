@@ -128,6 +128,7 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
             <author>
                 <name><?php echo $speaker_name; ?></name>
             </author>
+            <description><?php echo date_i18n('j M H:i', strtotime( $date ) ); ?></description>
             <pubDate><?php echo date_format( $date, 'Y-m-d\TH:i:sP' ); ?></pubDate>
             <link rel="alternate" type="text/html" href="<?php the_permalink_rss(); ?>"/>
             <media:content
