@@ -65,12 +65,9 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
             </author>
             <updated></updated>
             <link rel="alternate" type="text/html"><?php the_permalink_rss(); ?></link>
-            <media:group>
-                <media:content
-                        url="<?php echo get_field_or_parent( 'thumb', get_the_ID(), 'iahm_eventcategory' )['sizes']['card']; ?>"
-                        type="image/jpg"/>
-                <media:title> FeedForAll file sample</media:title>
-            </media:group>
+            <media:content
+                    url="<?php echo get_field_or_parent( 'thumb', get_the_ID(), 'iahm_eventcategory' )['sizes']['card']; ?>"
+                    type="image/jpg"/>
             <summary type="html"><![CDATA[<?php echo "<p>test</p>" ?>]]></summary>
             <content type="html"></content>
         </entry>
