@@ -19,13 +19,13 @@ header( 'Content-Type: application/atom+xml; charset=' . get_option( 'blog_chars
  */
 echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>'; ?>
 
-<feed xmlns:atom="http://www.w3.org/2005/Atom"
+<feed xmlns:content="http://purl.org/rss/1.0/modules/content/"
+      xmlns:atom="http://www.w3.org/2005/Atom"
       xmlns:media="http://search.yahoo.com/mrss/">
     <id><?php bloginfo_rss( 'url' ) ?></id>
     <title><?php bloginfo_rss( 'name' ); ?></title>
     <updated><?php echo mysql2date( 'D, d M Y H:i:s +0000', get_lastpostmodified( 'GMT' ), false ); ?></updated>
     <link rel="self" href="<?php bloginfo_rss( 'url' ) ?>"/>
-    <generator><?php echo get_site_url() ?></generator>
 
 
 	<?php do_action( 'rss2_head' ); ?>
@@ -66,8 +66,10 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
             <updated></updated>
             <link rel="alternate" type="text/html"><?php the_permalink_rss(); ?></link>
             <media:group>
-                <media:content url="<?php echo get_field_or_parent( 'thumb', get_the_ID(), 'iahm_eventcategory' )['sizes']['card']; ?>" type="image/jpg" />
-                <media:title> FeedForAll file sample </media:title>
+                <media:content
+                        url="<?php echo get_field_or_parent( 'thumb', get_the_ID(), 'iahm_eventcategory' )['sizes']['card']; ?>"
+                        type="image/jpg"/>
+                <media:title> FeedForAll file sample</media:title>
             </media:group>
             <summary type="html"><![CDATA[<?php echo "<p>test</p>" ?>]]></summary>
             <content type="html"></content>
