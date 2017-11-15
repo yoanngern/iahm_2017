@@ -30,7 +30,7 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
 	<?php do_action( 'rss2_head' ); ?>
 
 	<?php
-	$post_type = get_post_type( $_POST );
+	//$post_type = get_post_type( $_POST );
 
 
 	$query = new WP_Query( array(
