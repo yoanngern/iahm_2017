@@ -83,9 +83,6 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
 					$speaker_name .= " (" . $country_id . ")";
                 }
 
-				set_query_var( 'person_id', $speaker->ID );
-				get_template_part( 'template-parts/people/people_details' );
-
 			endforeach;
 		endif;
 
