@@ -38,6 +38,7 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
 		'post_type'      => 'iahm_event',
 		'post_status'    => 'publish',
 		'posts_per_page' => 16,
+		'include_children' => true,
 		'tax_query'      => array(
 			array(
 				'taxonomy' => 'iahm_eventcategory',
@@ -55,14 +56,32 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
 
 	$today = date( 'Ymd' );
 
+	$first = date( "Ymd", strtotime( date( 'm', strtotime( '+1 month' ) ) . '/01/' . date( 'Y' ) . ' 00:00:00' ) );
+
+	$created_timestamp = date( "Y-m-t  H:i:s", strtotime( "+1 month" ) );
+
+
+	$last = date( "Ymd", strtotime(date( "Y-m-t  H:i:s", strtotime( "+1 month" ) )) );
+
+
+
 	$query->set( 'meta_query', array(
 		array(
 			'key'              => 'end_date',
 			'compare'          => '>=',
-			'value'            => $today,
-			'include_children' => true,
+			'value'            => $first,
 		)
 	) );
+
+
+	$query->set( 'meta_query', array(
+		array(
+			'key'              => 'start_date',
+			'compare'          => '<=',
+			'value'            => $last,
+		)
+	) );
+
 
 
 	//var_dump( $query );
@@ -80,10 +99,6 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
 	<?php
 
 	while ( $query->have_posts() ) : $query->the_post();
-
-
-		//var_dump( get_field( 'start_date' ) );
-		//var_dump( get_field( 'time' ) );
 
 		$date = date_create_from_format( 'Y-j-d H:i:s', get_field( 'start_date' ) . " " . get_field( 'time' ) );
 
@@ -111,8 +126,6 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
 
 			endforeach;
 		}
-
-		//var_dump( $date );
 
 
 		?>
