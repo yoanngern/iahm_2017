@@ -35,9 +35,10 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
 
 
 	$query = new WP_Query( array(
-		'post_type'   => 'iahm_event',
-		'post_status' => 'publish',
-		'tax_query'   => array(
+		'post_type'      => 'iahm_event',
+		'post_status'    => 'publish',
+		'posts_per_page' => 16,
+		'tax_query'      => array(
 			array(
 				'taxonomy' => 'iahm_eventcategory',
 				'field'    => 'slug',
@@ -81,7 +82,10 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
 	while ( $query->have_posts() ) : $query->the_post();
 
 
-		$date = DateTime::createFromFormat( 'd/j/Y H:i:s', get_field( 'start_date' ) . " " . get_field( 'time' ) );
+		var_dump( get_field( 'start_date' ) );
+		var_dump( get_field( 'time' ) );
+
+		$date = date_create_from_format( 'd/j/Y H:i:s', get_field( 'start_date' ) . " " . get_field( 'time' ) );
 
 		$speaker_name = "";
 
@@ -107,6 +111,8 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
 
 			endforeach;
 		}
+
+		var_dump( $date );
 
 
 		?>
