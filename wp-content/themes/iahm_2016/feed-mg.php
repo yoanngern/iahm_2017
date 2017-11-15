@@ -54,15 +54,9 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
 
 		$post = $event;
 
-		$date = complex_date( get_field( 'start_date' ), get_field( 'end_date' ) );
+		//$date = complex_date( get_field( 'start_date' ), get_field( 'end_date' ) );
 
-		if ( get_field( 'time' ) ) {
-
-
-			$date_time = new DateTime( '01-01-1970 ' . get_field( 'time' ) );
-
-			$date .= pll__( 'at' ) . " " . time_trans( $date_time );
-		}
+		$date = new DateTime( get_field( 'start_date' ) . get_field( 'time' ) );
 
 		$speaker_name = "";
 
@@ -98,7 +92,7 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
             <author>
                 <name><?php echo $speaker_name; ?></name>
             </author>
-            <pubDate><?php echo $date; ?></pubDate>
+            <pubDate><?php echo date_format($date, 'Y-m-d\TH:i:sP'); ?></pubDate>
             <link rel="alternate" type="text/html" href="<?php the_permalink_rss(); ?>"/>
             <media:content
                     url="<?php echo get_field_or_parent( 'thumb', get_the_ID(), 'iahm_eventcategory' )['sizes']['card']; ?>"
