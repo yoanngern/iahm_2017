@@ -59,7 +59,7 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
 
         <entry>
             <id><?php the_guid(); ?></id>
-            <title type="html"><?php get_the_title(); ?></title>
+            <title type="html"><![CDATA[<?php the_title(); ?>]]></title>
             <author>
                 <name>Jean-Luc</name>
             </author>
@@ -69,7 +69,7 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
                     url="<?php echo get_field_or_parent( 'thumb', get_the_ID(), 'iahm_eventcategory' )['sizes']['card']; ?>"
                     type="image/jpg"/>
             <summary type="html"><![CDATA[<?php echo "<p>test</p>" ?>]]></summary>
-            <content type="html"></content>
+            <content type="html"><![CDATA[<?php echo "<p>test</p>" ?>]]></content>
         </entry>
 
 	<?php endforeach; ?>
