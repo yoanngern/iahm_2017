@@ -67,24 +67,27 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
 		$speaker_name = "";
 
 
-		if ( get_field( 'speakers' ) ):
 
-			foreach ( get_field( 'speakers' ) as $speaker ) :
+		foreach ( get_field( 'speakers' ) as $speaker ) :
 
-				$person = get_post( $person_id );
+			$person = get_post( $speaker );
 
-				$first_name = get_field( 'first_name', $person->ID );
-				$last_name  = get_field( 'last_name', $person->ID );
-				$country_id = get_field( 'country_id', $person->ID );
+			$first_name = get_field( 'first_name', $person->ID );
+			$last_name  = get_field( 'last_name', $person->ID );
+			$country_id = get_field( 'country_id', $person->ID );
 
-				$speaker_name .= $first_name . " " . $last_name;
+			if($speaker_name != "") {
+			    $speaker_name .= " | ";
+            }
 
-				if($country_id) {
-					$speaker_name .= " (" . $country_id . ")";
-                }
+			$speaker_name .= $first_name . " " . $last_name;
 
-			endforeach;
-		endif;
+			if ( $country_id ) {
+				$speaker_name .= " (" . $country_id . ")";
+			}
+
+		endforeach;
+
 
 		?>
 
