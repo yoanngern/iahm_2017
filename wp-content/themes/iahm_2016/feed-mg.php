@@ -57,7 +57,7 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
 		?>
 
 
-        <item>
+        <entry>
             <id><?php the_guid(); ?></id>
             <title type="html"><![CDATA[<?php the_title(); ?>]]></title>
             <author>
@@ -70,7 +70,7 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
                     type="image/jpg"/>
             <summary type="html"><![CDATA[<?php echo "<p>test</p>" ?>]]></summary>
             <content type="html"><![CDATA[<?php echo "<p>test</p>" ?>]]></content>
-        </item>
+        </entry>
 
 	<?php endforeach; ?>
     <!-- End loop -->
