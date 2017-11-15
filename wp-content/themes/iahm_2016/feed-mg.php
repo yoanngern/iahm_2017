@@ -19,9 +19,10 @@ header( 'Content-Type: application/atom+xml; charset=' . get_option( 'blog_chars
  */
 echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>'; ?>
 
-<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"
-     xmlns:atom="http://www.w3.org/2005/Atom"
-     xmlns:media="http://search.yahoo.com/mrss/">
+<feed xmlns:content="http://purl.org/rss/1.0/modules/content/"
+      xmlns:atom="http://www.w3.org/2005/Atom"
+      xmlns:media="http://search.yahoo.com/mrss/">
+    <id><?php bloginfo_rss( 'url' ) ?></id>
     <title><?php bloginfo_rss( 'name' ); ?></title>
     <updated><?php echo mysql2date( 'D, d M Y H:i:s +0000', get_lastpostmodified( 'GMT' ), false ); ?></updated>
     <link rel="self" href="<?php bloginfo_rss( 'url' ) ?>"/>
@@ -74,4 +75,4 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
 	<?php endforeach; ?>
     <!-- End loop -->
 
-</rss>
+</feed>
