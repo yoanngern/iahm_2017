@@ -65,7 +65,7 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
 
 
 	$query->set( 'meta_query', array(
-		'relation' => 'OR',
+		'relation' => 'AND',
 		array(
 			'key'     => 'end_date',
 			'compare' => '>=',
