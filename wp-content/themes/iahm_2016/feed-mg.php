@@ -56,30 +56,27 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
 
 	$today = date( 'Y-m-d' );
 
-	$first = date( "Y-m-d", strtotime( date( 'm', strtotime( '+1 month' ) ) . '/01/' . date( 'Y' ) . ' 00:00:00' ) );
+	$first = date( "Ymd", strtotime( date( 'm', strtotime( '+1 month' ) ) . '/01/' . date( 'Y' ) . ' 00:00:00' ) );
 
 	//$created_timestamp = date( "Y-m-t  H:i:s", strtotime( "+1 month" ) );
 
 
-	$last = date( "Y-m-d", strtotime( date( "Y-m-t  H:i:s", strtotime( "+1 month" ) ) ) );
-
+	$last = date( "Ymd", strtotime( date( "Y-m-t  H:i:s", strtotime( "+1 month" ) ) ) );
 
 	$query->set( 'meta_query', array(
-		'relation' => 'OR',
+		'relation' => 'AND',
 		array(
 			'key'     => 'end_date',
 			'compare' => '>=',
 			'value'   => $first,
 		),
 		array(
-			'key'     => 'end_date',
+			'key'     => 'start_date',
 			'compare' => '<=',
 			'value'   => $last,
 		)
+
 	) );
-
-
-	//var_dump( $query );
 
 
 	$events = $query->get_posts();
@@ -95,10 +92,9 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
 
 	while ( $query->have_posts() ) : $query->the_post();
 
-		$date = date_create_from_format( 'Y-j-d H:i:s', get_field( 'start_date' ) . " " . get_field( 'time' ) );
+		$date = date_create_from_format( 'Ymd H:i:s', get_field( 'start_date' ) . " " . get_field( 'time' ) );
 
 		$speaker_name = "";
-
 
 		if ( get_field( 'speakers' ) ) {
 			foreach ( get_field( 'speakers' ) as $speaker ) :
