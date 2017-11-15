@@ -78,7 +78,7 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
         <!-- Start loop -->
 		<?php foreach ( $events as $event ):
 
-            $post = $event;
+			$post = $event;
 
 			?>
 
@@ -87,9 +87,13 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
                 <title><?php the_title_rss(); ?></title>
                 <link><?php the_permalink_rss(); ?></link>
                 <guid isPermaLink="false"><?php the_guid(); ?></guid>
-                <media:content url="<?php echo get_field_or_parent( 'thumb', get_the_ID(), 'iahm_eventcategory' )['sizes']['card']; ?>" type="image/jpg">
+                <media:content
+                        url="<?php echo get_field_or_parent( 'thumb', get_the_ID(), 'iahm_eventcategory' )['sizes']['card']; ?>"
+                        type="image/jpg"/>
                 <image>
-                    <url><?php echo get_field_or_parent( 'thumb', get_the_ID(), 'iahm_eventcategory' )['sizes']['card']; ?>"/></url>
+                    <url><?php echo get_field_or_parent( 'thumb', get_the_ID(), 'iahm_eventcategory' )['sizes']['card']; ?>
+                        "/>
+                    </url>
                 </image>
                 <pubDate><?php echo complex_date( get_field( 'start_date' ), get_field( 'end_date' ) ); ?></pubDate>
 
