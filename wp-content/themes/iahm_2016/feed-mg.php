@@ -132,7 +132,7 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
             <pubDate><?php echo date_format( $date, 'Y-m-d\TH:i:sP' ); ?></pubDate>
             <link rel="alternate" type="text/html" href="<?php the_permalink_rss(); ?>"/>
             <media:content
-                    url="<?php echo get_field_or_parent( 'thumb', get_the_ID(), 'iahm_eventcategory' )['sizes']['card']; ?>"
+                    url="<?php echo get_field_or_parent( 'thumb', get_the_ID(), 'iahm_eventcategory' )['sizes']['mailchimp_list']; ?>"
                     type="image/jpg"/>
             <summary type="html"><![CDATA[<?php echo "<p>test</p>" ?>]]></summary>
             <content type="html"><![CDATA[<?php echo "<p>test</p>" ?>]]></content>

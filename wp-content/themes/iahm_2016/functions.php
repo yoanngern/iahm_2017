@@ -364,6 +364,8 @@ add_image_size( 'avatar', 200, 200, true );
 add_image_size( 'ad', 360, 200, true );
 add_image_size( 'ad_title', 267, 74, true );
 add_image_size( 'full_hd', 1920, 1080, true );
+add_image_size( 'mailchimp_list', 560, 315, true );
+
 
 
 /**
