@@ -106,7 +106,7 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
 				$country_id = get_field( 'country_id', $person->ID );
 
 				if ( $speaker_name != "" ) {
-					$speaker_name .= "<br/>";
+					$speaker_name .= " | ";
 				}
 
 				$speaker_name .= $first_name . " " . $last_name;
@@ -128,7 +128,7 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
             <author>
                 <name><?php echo $speaker_name; ?></name>
             </author>
-            <description><?php echo date_i18n('j F H:i', $date->getTimestamp() ); ?></description>
+            <description><?php echo date_i18n( 'j F H:i', $date->getTimestamp() ); ?></description>
             <pubDate><?php echo date_format( $date, 'Y-m-d\TH:i:sP' ); ?></pubDate>
             <link rel="alternate" type="text/html" href="<?php the_permalink_rss(); ?>"/>
             <media:content
