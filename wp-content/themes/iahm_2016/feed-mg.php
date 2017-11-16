@@ -106,7 +106,7 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
 				$country_id = get_field( 'country_id', $person->ID );
 
 				if ( $speaker_name != "" ) {
-					$speaker_name .= " | ";
+					$speaker_name .= "<br/>";
 				}
 
 				$speaker_name .= $first_name . " " . $last_name;
