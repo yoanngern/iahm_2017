@@ -23,7 +23,7 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
       xmlns:atom="http://www.w3.org/2005/Atom"
       xmlns:media="http://search.yahoo.com/mrss/">
     <id><?php bloginfo_rss( 'url' ) ?></id>
-    <title><?php echo date_i18n( 'F', date( "M", strtotime( date( 'U', strtotime( '+1 month' ) ) . '/01/' . date( 'Y' ) . ' 00:00:00' ) )); ?></title>
+    <title><?php echo date_i18n( 'F', date( "U", strtotime( date( 'm', strtotime( '+1 month' ) ) . '/01/' . date( 'Y' ) . ' 00:00:00' ) )); ?></title>
     <updated><?php echo mysql2date( 'D, d M Y H:i:s +0000', get_lastpostmodified( 'GMT' ), false ); ?></updated>
     <link rel="self" href="<?php bloginfo_rss( 'url' ) ?>"/>
 
