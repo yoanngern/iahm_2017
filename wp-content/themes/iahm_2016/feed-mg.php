@@ -61,7 +61,7 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
 	//$created_timestamp = date( "Y-m-t  H:i:s", strtotime( "+1 month" ) );
 
 
-	$last = date( "Ymd", strtotime( date( "Y-m-t  H:i:s", strtotime( "+1 month" ) ) ) );
+	$last = date( "Ymd", strtotime( date( "Y-m-d  H:i:s", strtotime( "+1 month" ) ) ) );
 
 	$query->set( 'meta_query', array(
 		'relation' => 'AND',
