@@ -56,12 +56,13 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
 
 	$today = date( 'Y-m-d' );
 
-	$first = date( "Ymd", strtotime( date( 'm', strtotime( '+1 month' ) ) . '/01/' . date( 'Y' ) . ' 00:00:00' ) );
+	$first = date( "Ymd", strtotime( date( 'm', strtotime( '+1 month' ) ) . '/01/' . date( 'Y', strtotime( '+1 month' ) ) . ' 00:00:00' ) );
 
 	//$created_timestamp = date( "Y-m-t  H:i:s", strtotime( "+1 month" ) );
 
 
 	$last = date( "Ymd", strtotime( date( "Y-m-d  H:i:s", strtotime( "+1 month" ) ) ) );
+
 
 	$query->set( 'meta_query', array(
 		'relation' => 'AND',
