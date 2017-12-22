@@ -75,7 +75,6 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
 			'compare' => '<=',
 			'value'   => $last,
 		)
-
 	) );
 
 
