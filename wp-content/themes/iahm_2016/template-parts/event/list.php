@@ -53,6 +53,10 @@
 
 		        $cat_queried = get_queried_object();
 
+		        var_dump($cat_queried);
+
+		        error_log($cat_queried);
+
 		        wp_dropdown_categories( array(
 			        'show_option_all' => pll__( 'Filter events' ),
 			        'value_field'     => 'slug',
