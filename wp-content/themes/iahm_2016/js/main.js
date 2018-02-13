@@ -27,12 +27,17 @@ $(document).ready(function () {
             var path = $(this).parent().parent().data("path");
             var slug = this.value;
 
+            console.log(url);
+            console.log(tax);
+            console.log(path);
+            console.log(slug);
+
             if (slug != 0) {
 
-                window.location.href = url + tax + "/" + slug;
+                //window.location.href = url + tax + "/" + slug;
             } else {
 
-                window.location.href = url + path;
+                //window.location.href = url + path;
             }
 
 
