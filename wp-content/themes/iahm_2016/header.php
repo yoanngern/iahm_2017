@@ -67,10 +67,6 @@
 	<?php endif; ?>
 
 
-
-
-
-
 	<script>
 
 	</script>

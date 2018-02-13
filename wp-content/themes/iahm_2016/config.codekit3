@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "1D0A0F81-8219-4547-91A9-3C716911AAB3"
+		"uuidString": "0245A202-C09D-483C-B53A-03B61EEA25DF"
 		}
 	],
 "creatorBuild": "26261",
@@ -16,258 +16,234 @@
 		"oAP": "\/404.php",
 		"oF": 0
 		},
-	"\/archive-iahm_speaker.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/archive-iahm_speaker.php",
-		"oF": 0
-		},
 	"\/browserconfig.xml": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/browserconfig.xml",
 		"oF": 0
-		},
-	"\/content-page.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/content-page.php",
-		"oF": 0
-		},
-	"\/css\/style.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/style-ck.css",
-		"oF": 0,
-		"oS": 0
 		},
 	"\/events.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/events.php",
 		"oF": 0
 		},
 	"\/feed-event.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/feed-event.php",
 		"oF": 0
 		},
 	"\/feed-mg.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/feed-mg.php",
 		"oF": 0
 		},
 	"\/fonts\/2F483F_0_0.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/2F483F_0_0.eot",
 		"oF": 0
 		},
 	"\/fonts\/2F483F_0_0.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/2F483F_0_0.ttf",
 		"oF": 0
 		},
 	"\/fonts\/2F483F_0_0.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/2F483F_0_0.woff",
 		"oF": 0
 		},
 	"\/fonts\/2F483F_0_0.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/2F483F_0_0.woff2",
 		"oF": 0
 		},
 	"\/fonts\/2F483F_1_0.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/2F483F_1_0.eot",
 		"oF": 0
 		},
 	"\/fonts\/2F483F_1_0.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/2F483F_1_0.ttf",
 		"oF": 0
 		},
 	"\/fonts\/2F483F_1_0.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/2F483F_1_0.woff",
 		"oF": 0
 		},
 	"\/fonts\/2F483F_1_0.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/2F483F_1_0.woff2",
 		"oF": 0
 		},
 	"\/fonts\/309DFA_0_0.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/309DFA_0_0.eot",
 		"oF": 0
 		},
 	"\/fonts\/309DFA_0_0.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/309DFA_0_0.ttf",
 		"oF": 0
 		},
 	"\/fonts\/309DFA_0_0.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/309DFA_0_0.woff",
 		"oF": 0
 		},
 	"\/fonts\/309DFA_0_0.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/309DFA_0_0.woff2",
 		"oF": 0
 		},
 	"\/fonts\/309DFA_1_0.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/309DFA_1_0.eot",
 		"oF": 0
 		},
 	"\/fonts\/309DFA_1_0.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/309DFA_1_0.ttf",
 		"oF": 0
 		},
 	"\/fonts\/309DFA_1_0.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/309DFA_1_0.woff",
 		"oF": 0
 		},
 	"\/fonts\/309DFA_1_0.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/309DFA_1_0.woff2",
 		"oF": 0
 		},
 	"\/fonts\/309DFA_2_0.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/309DFA_2_0.eot",
 		"oF": 0
 		},
 	"\/fonts\/309DFA_2_0.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/309DFA_2_0.ttf",
 		"oF": 0
 		},
 	"\/fonts\/309DFA_2_0.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/309DFA_2_0.woff",
 		"oF": 0
 		},
 	"\/fonts\/309DFA_2_0.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/309DFA_2_0.woff2",
 		"oF": 0
 		},
 	"\/fonts\/3139B7_0_0.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/3139B7_0_0.eot",
 		"oF": 0
 		},
 	"\/fonts\/3139B7_0_0.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/3139B7_0_0.ttf",
 		"oF": 0
 		},
 	"\/fonts\/3139B7_0_0.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/3139B7_0_0.woff",
 		"oF": 0
 		},
 	"\/fonts\/3139B7_0_0.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/3139B7_0_0.woff2",
 		"oF": 0
 		},
 	"\/fonts\/3139B7_1_0.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/3139B7_1_0.eot",
 		"oF": 0
 		},
 	"\/fonts\/3139B7_1_0.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/3139B7_1_0.ttf",
 		"oF": 0
 		},
 	"\/fonts\/3139B7_1_0.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/3139B7_1_0.woff",
 		"oF": 0
 		},
 	"\/fonts\/3139B7_1_0.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/3139B7_1_0.woff2",
 		"oF": 0
 		},
 	"\/fonts\/titillium-black-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-black-webfont.eot",
 		"oF": 0
 		},
@@ -284,28 +260,28 @@
 	"\/fonts\/titillium-black-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-black-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/titillium-black-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-black-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/titillium-black-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-black-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/titillium-bold-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-bold-webfont.eot",
 		"oF": 0
 		},
@@ -322,28 +298,28 @@
 	"\/fonts\/titillium-bold-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-bold-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/titillium-bold-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-bold-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/titillium-bold-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-bold-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/titillium-bolditalic-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-bolditalic-webfont.eot",
 		"oF": 0
 		},
@@ -360,28 +336,28 @@
 	"\/fonts\/titillium-bolditalic-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-bolditalic-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/titillium-bolditalic-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-bolditalic-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/titillium-bolditalic-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-bolditalic-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/titillium-boldupright-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-boldupright-webfont.eot",
 		"oF": 0
 		},
@@ -398,28 +374,28 @@
 	"\/fonts\/titillium-boldupright-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-boldupright-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/titillium-boldupright-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-boldupright-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/titillium-boldupright-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-boldupright-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/titillium-light-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-light-webfont.eot",
 		"oF": 0
 		},
@@ -436,28 +412,28 @@
 	"\/fonts\/titillium-light-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-light-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/titillium-light-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-light-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/titillium-light-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-light-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/titillium-lightitalic-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-lightitalic-webfont.eot",
 		"oF": 0
 		},
@@ -474,28 +450,28 @@
 	"\/fonts\/titillium-lightitalic-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-lightitalic-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/titillium-lightitalic-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-lightitalic-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/titillium-lightitalic-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-lightitalic-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/titillium-lightupright-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-lightupright-webfont.eot",
 		"oF": 0
 		},
@@ -512,28 +488,28 @@
 	"\/fonts\/titillium-lightupright-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-lightupright-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/titillium-lightupright-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-lightupright-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/titillium-lightupright-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-lightupright-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/titillium-regular-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-regular-webfont.eot",
 		"oF": 0
 		},
@@ -550,28 +526,28 @@
 	"\/fonts\/titillium-regular-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-regular-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/titillium-regular-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-regular-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/titillium-regular-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-regular-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/titillium-regularitalic-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-regularitalic-webfont.eot",
 		"oF": 0
 		},
@@ -588,28 +564,28 @@
 	"\/fonts\/titillium-regularitalic-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-regularitalic-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/titillium-regularitalic-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-regularitalic-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/titillium-regularitalic-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-regularitalic-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/titillium-regularupright-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-regularupright-webfont.eot",
 		"oF": 0
 		},
@@ -626,28 +602,28 @@
 	"\/fonts\/titillium-regularupright-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-regularupright-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/titillium-regularupright-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-regularupright-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/titillium-regularupright-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-regularupright-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/titillium-semibold-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-semibold-webfont.eot",
 		"oF": 0
 		},
@@ -664,28 +640,28 @@
 	"\/fonts\/titillium-semibold-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-semibold-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/titillium-semibold-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-semibold-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/titillium-semibold-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-semibold-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/titillium-semibolditalic-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-semibolditalic-webfont.eot",
 		"oF": 0
 		},
@@ -702,28 +678,28 @@
 	"\/fonts\/titillium-semibolditalic-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-semibolditalic-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/titillium-semibolditalic-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-semibolditalic-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/titillium-semibolditalic-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-semibolditalic-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/titillium-semiboldupright-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-semiboldupright-webfont.eot",
 		"oF": 0
 		},
@@ -740,28 +716,28 @@
 	"\/fonts\/titillium-semiboldupright-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-semiboldupright-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/titillium-semiboldupright-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-semiboldupright-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/titillium-semiboldupright-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-semiboldupright-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/titillium-thin-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-thin-webfont.eot",
 		"oF": 0
 		},
@@ -778,28 +754,28 @@
 	"\/fonts\/titillium-thin-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-thin-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/titillium-thin-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-thin-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/titillium-thin-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-thin-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/titillium-thinitalic-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-thinitalic-webfont.eot",
 		"oF": 0
 		},
@@ -816,28 +792,28 @@
 	"\/fonts\/titillium-thinitalic-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-thinitalic-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/titillium-thinitalic-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-thinitalic-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/titillium-thinitalic-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-thinitalic-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/titillium-thinupright-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-thinupright-webfont.eot",
 		"oF": 0
 		},
@@ -854,21 +830,21 @@
 	"\/fonts\/titillium-thinupright-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-thinupright-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/titillium-thinupright-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-thinupright-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/titillium-thinupright-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/fonts\/titillium-thinupright-webfont.woff2",
 		"oF": 0
 		},
@@ -896,21 +872,21 @@
 	"\/header-event.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/header-event.php",
 		"oF": 0
 		},
 	"\/header-events.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/header-events.php",
 		"oF": 0
 		},
 	"\/header-form.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/header-form.php",
 		"oF": 0
 		},
@@ -934,47 +910,6 @@
 		"oA": 0,
 		"oAP": "\/header.php",
 		"oF": 0
-		},
-	"\/images\/amsterdam\/Amsterdam_Slide.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/images\/amsterdam\/Amsterdam_Slide.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/amsterdam\/header_bg.jpg": {
-		"ft": 16384,
-		"iS": 334851,
-		"oA": 0,
-		"oAP": "\/images\/amsterdam\/header_bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/amsterdam\/header_title.png": {
-		"ft": 32768,
-		"iS": 58775,
-		"oA": 0,
-		"oAP": "\/images\/amsterdam\/header_title.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/amsterdam\/thumb.jpg": {
-		"ft": 16384,
-		"iS": 851210,
-		"oA": 0,
-		"oAP": "\/images\/amsterdam\/thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
 		},
 	"\/images\/android-icon-144x144.png": {
 		"ft": 32768,
@@ -1176,7 +1111,7 @@
 		},
 	"\/images\/apple-touch-icon_114.png": {
 		"ft": 32768,
-		"iS": 7495,
+		"iS": 5979,
 		"oA": 0,
 		"oAP": "\/images\/apple-touch-icon_114.png",
 		"oF": 0,
@@ -1187,7 +1122,7 @@
 		},
 	"\/images\/apple-touch-icon_120.png": {
 		"ft": 32768,
-		"iS": 7849,
+		"iS": 6258,
 		"oA": 0,
 		"oAP": "\/images\/apple-touch-icon_120.png",
 		"oF": 0,
@@ -1198,7 +1133,7 @@
 		},
 	"\/images\/apple-touch-icon_147.png": {
 		"ft": 32768,
-		"iS": 9511,
+		"iS": 7768,
 		"oA": 0,
 		"oAP": "\/images\/apple-touch-icon_147.png",
 		"oF": 0,
@@ -1209,7 +1144,7 @@
 		},
 	"\/images\/apple-touch-icon_152.png": {
 		"ft": 32768,
-		"iS": 9882,
+		"iS": 8153,
 		"oA": 0,
 		"oAP": "\/images\/apple-touch-icon_152.png",
 		"oF": 0,
@@ -1220,7 +1155,7 @@
 		},
 	"\/images\/apple-touch-icon_57.png": {
 		"ft": 32768,
-		"iS": 3629,
+		"iS": 2817,
 		"oA": 0,
 		"oAP": "\/images\/apple-touch-icon_57.png",
 		"oF": 0,
@@ -1231,7 +1166,7 @@
 		},
 	"\/images\/apple-touch-icon_72.png": {
 		"ft": 32768,
-		"iS": 4568,
+		"iS": 3694,
 		"oA": 0,
 		"oAP": "\/images\/apple-touch-icon_72.png",
 		"oF": 0,
@@ -1242,7 +1177,7 @@
 		},
 	"\/images\/apple-touch-icon_76.png": {
 		"ft": 32768,
-		"iS": 4870,
+		"iS": 3833,
 		"oA": 0,
 		"oAP": "\/images\/apple-touch-icon_76.png",
 		"oF": 0,
@@ -1253,7 +1188,7 @@
 		},
 	"\/images\/arrow_down.png": {
 		"ft": 32768,
-		"iS": 265,
+		"iS": 382,
 		"oA": 0,
 		"oAP": "\/images\/arrow_down.png",
 		"oF": 0,
@@ -1275,7 +1210,7 @@
 		},
 	"\/images\/arrow_up.png": {
 		"ft": 32768,
-		"iS": 357,
+		"iS": 382,
 		"oA": 0,
 		"oAP": "\/images\/arrow_up.png",
 		"oF": 0,
@@ -1317,12 +1252,12 @@
 		},
 	"\/images\/back_gray.png": {
 		"ft": 32768,
-		"iS": 412,
+		"iS": 245,
 		"oA": 0,
 		"oAP": "\/images\/back_gray.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -1339,34 +1274,34 @@
 		},
 	"\/images\/dropdown.png": {
 		"ft": 32768,
-		"iS": 293,
+		"iS": 331,
 		"oA": 0,
 		"oAP": "\/images\/dropdown.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/images\/dropdown_white.png": {
 		"ft": 32768,
-		"iS": 342,
+		"iS": 327,
 		"oA": 0,
 		"oAP": "\/images\/dropdown_white.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/images\/facebook_default_home.jpg": {
 		"ft": 16384,
-		"iS": 512949,
+		"iS": 502558,
 		"oA": 0,
 		"oAP": "\/images\/facebook_default_home.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/favicon-16x16.png": {
@@ -1405,7 +1340,7 @@
 	"\/images\/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/images\/favicon.ico",
 		"oF": 0
 		},
@@ -1486,7 +1421,7 @@
 		},
 	"\/images\/logo_simple.png": {
 		"ft": 32768,
-		"iS": 3621,
+		"iS": 3899,
 		"oA": 0,
 		"oAP": "\/images\/logo_simple.png",
 		"oF": 0,
@@ -1565,36 +1500,6 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
-	"\/js\/_map.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/js\/_map.min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/events.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/events.min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/js\/events.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/js\/events.min.min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/js\/grayscale\/filters.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1632,7 +1537,7 @@
 		"oA": 0,
 		"oAP": "\/js\/live.min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/live.min.js": {
@@ -1651,7 +1556,7 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/main.min.js",
-		"oF": 2,
+		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
@@ -1659,18 +1564,8 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
-		"oAP": "\/js\/main.min.min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/min\/main-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/min\/main-min.min.js",
+		"oAP": "\/js\/main.min.min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1688,7 +1583,7 @@
 	"\/js\/vendor\/handlebars-intl\/handlebars-intl-with-locales.js.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/js\/vendor\/handlebars-intl\/handlebars-intl-with-locales.js.map",
 		"oF": 0
 		},
@@ -1696,7 +1591,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/js\/vendor\/handlebars-intl\/handlebars-intl-with-locales.min.min.js",
 		"oF": 0,
 		"sC": 1,
@@ -1705,7 +1600,7 @@
 	"\/js\/vendor\/handlebars-intl\/handlebars-intl-with-locales.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/js\/vendor\/handlebars-intl\/handlebars-intl-with-locales.min.js.map",
 		"oF": 0
 		},
@@ -1722,7 +1617,7 @@
 	"\/js\/vendor\/handlebars-intl\/handlebars-intl.js.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/js\/vendor\/handlebars-intl\/handlebars-intl.js.map",
 		"oF": 0
 		},
@@ -1730,7 +1625,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/js\/vendor\/handlebars-intl\/handlebars-intl.min.min.js",
 		"oF": 0,
 		"sC": 1,
@@ -1739,7 +1634,7 @@
 	"\/js\/vendor\/handlebars-intl\/handlebars-intl.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/js\/vendor\/handlebars-intl\/handlebars-intl.min.js.map",
 		"oF": 0
 		},
@@ -4103,34 +3998,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/Kuler\/Api.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Kuler\/Api.php",
-		"oF": 0
-		},
-	"\/Kuler\/Comment.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Kuler\/Comment.php",
-		"oF": 0
-		},
-	"\/Kuler\/Exception.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Kuler\/Exception.php",
-		"oF": 0
-		},
-	"\/Kuler\/Theme.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Kuler\/Theme.php",
-		"oF": 0
-		},
 	"\/page.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -4148,7 +4015,7 @@
 	"\/page_elementor.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/page_elementor.php",
 		"oF": 0
 		},
@@ -4162,7 +4029,7 @@
 	"\/page_form.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/page_form.php",
 		"oF": 0
 		},
@@ -4183,7 +4050,7 @@
 	"\/page_live.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/page_live.php",
 		"oF": 0
 		},
@@ -4236,84 +4103,84 @@
 	"\/scss\/.sass-cache\/00dca98eae06ac6314d1ad7a2c04afa3b608a258\/admin.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/scss\/.sass-cache\/00dca98eae06ac6314d1ad7a2c04afa3b608a258\/admin.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/00dca98eae06ac6314d1ad7a2c04afa3b608a258\/intro.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/scss\/.sass-cache\/00dca98eae06ac6314d1ad7a2c04afa3b608a258\/intro.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/00dca98eae06ac6314d1ad7a2c04afa3b608a258\/style.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/scss\/.sass-cache\/00dca98eae06ac6314d1ad7a2c04afa3b608a258\/style.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/content.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/content.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/custom.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/custom.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/espresso_events.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/espresso_events.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/events.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/events.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/footer.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/footer.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/header.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/header.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/home.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/home.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/slider.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/slider.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/subnav.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/scss\/.sass-cache\/3b23117fe9e6218802138d5cd69216cc3512bf50\/subnav.scssc",
 		"oF": 0
 		},
@@ -4355,7 +4222,7 @@
 	"\/scss\/.sass-cache\/5d2ac9a37c980aa2651256cf71ae1a559aee4c9c\/style.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/scss\/.sass-cache\/5d2ac9a37c980aa2651256cf71ae1a559aee4c9c\/style.scssc",
 		"oF": 0
 		},
@@ -4425,7 +4292,7 @@
 	"\/scss\/.sass-cache\/80509735523dc04b22d4df3d925f2e8b029f9950\/style.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/scss\/.sass-cache\/80509735523dc04b22d4df3d925f2e8b029f9950\/style.scssc",
 		"oF": 0
 		},
@@ -4537,70 +4404,70 @@
 	"\/scss\/.sass-cache\/9b79a7c401b767d340130330b9c09707a7d97346\/style.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/scss\/.sass-cache\/9b79a7c401b767d340130330b9c09707a7d97346\/style.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/content.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/scss\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/content.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/custom.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/scss\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/custom.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/espresso_events.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/scss\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/espresso_events.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/events.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/scss\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/events.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/footer.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/scss\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/footer.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/header.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/scss\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/header.scssc",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/subnav.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/scss\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/subnav.scssc",
 		"oF": 0
 		},
 	"\/scss\/advanced\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/footer.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/scss\/advanced\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/footer.scssc",
 		"oF": 0
 		},
 	"\/scss\/advanced\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/header.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/scss\/advanced\/.sass-cache\/be572fa12770979464d0839fc375968a7ffd17c4\/header.scssc",
 		"oF": 0
 		},
@@ -4852,24 +4719,24 @@
 		"uL": 1
 		},
 	"\/scss\/css\/event.css": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
-		"oAP": "\/scss\/css\/event-ck.css",
+		"oA": 0,
+		"oAP": "\/scss\/css\/event-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"\/scss\/css\/live.css": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
-		"oAP": "\/scss\/css\/live-ck.css",
+		"oA": 0,
+		"oAP": "\/scss\/css\/live-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"\/scss\/style.scss": {
 		"aP": 0,
@@ -4881,100 +4748,93 @@
 		"oA": 0,
 		"oAP": "\/style.css",
 		"oF": 2,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
-	"\/single-iahm_speaker.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/single-iahm_speaker.php",
-		"oF": 0
-		},
 	"\/style.css": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
-		"oAP": "\/style-ck.css",
+		"oA": 0,
+		"oAP": "\/style-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"\/template-parts\/blog\/index.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/template-parts\/blog\/index.php",
 		"oF": 0
 		},
 	"\/template-parts\/blog\/none.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/template-parts\/blog\/none.php",
 		"oF": 0
 		},
 	"\/template-parts\/event\/event-mg.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/template-parts\/event\/event-mg.php",
 		"oF": 0
 		},
 	"\/template-parts\/event\/event.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/template-parts\/event\/event.php",
 		"oF": 0
 		},
 	"\/template-parts\/event\/index.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/template-parts\/event\/index.php",
 		"oF": 0
 		},
 	"\/template-parts\/event\/item.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/template-parts\/event\/item.php",
 		"oF": 0
 		},
 	"\/template-parts\/event\/list.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/template-parts\/event\/list.php",
 		"oF": 0
 		},
 	"\/template-parts\/event\/none.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/template-parts\/event\/none.php",
 		"oF": 0
 		},
 	"\/template-parts\/event\/single.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/template-parts\/event\/single.php",
 		"oF": 0
 		},
 	"\/template-parts\/people\/people_details.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/template-parts\/people\/people_details.php",
 		"oF": 0
 		},
 	"\/template-parts\/people\/people_simple.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/template-parts\/people\/people_simple.php",
 		"oF": 0
 		}
@@ -4984,10 +4844,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 499879615,
+	"creationDate": 540232679,
 	"displayValue": "IAHM 2017",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "\/apple-touch-icon.png"
+	"iconImageName": "\/images\/apple-touch-icon.png"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -5401,7 +5261,7 @@
 			},
 		"array-callback-return": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "{'allowImplicit': false}"
 			},
 		"array-element-newline": {
 			"active": 0,
@@ -5565,7 +5425,7 @@
 			},
 		"indent": {
 			"active": 0,
-			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1, }"
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1 }"
 			},
 		"init-declarations": {
 			"active": 0,
@@ -5792,8 +5652,8 @@
 			"optionString": ""
 			},
 		"no-extra-parens": {
-			"active": 1,
-			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false}"
+			"active": 0,
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false}"
 			},
 		"no-extra-semi": {
 			"active": 1,
@@ -5812,7 +5672,7 @@
 			"optionString": ""
 			},
 		"no-global-assign": {
-			"active": 0,
+			"active": 1,
 			"optionString": "{'exceptions': []}"
 			},
 		"no-implicit-coercion": {
@@ -6020,7 +5880,7 @@
 			"optionString": "{'props': false}"
 			},
 		"no-self-compare": {
-			"active": 1,
+			"active": 0,
 			"optionString": ""
 			},
 		"no-sequences": {
@@ -6041,14 +5901,14 @@
 			},
 		"no-sync": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "{'allowAtRootLevel': false}"
 			},
 		"no-tabs": {
 			"active": 0,
 			"optionString": ""
 			},
 		"no-template-curly-in-string": {
-			"active": 1,
+			"active": 0,
 			"optionString": ""
 			},
 		"no-ternary": {
@@ -6065,7 +5925,7 @@
 			},
 		"no-trailing-spaces": {
 			"active": 0,
-			"optionString": "{'skipBlankLines': false}"
+			"optionString": "{'skipBlankLines': false, 'ignoreComments': false}"
 			},
 		"no-undef": {
 			"active": 1,
@@ -6081,7 +5941,7 @@
 			},
 		"no-underscore-dangle": {
 			"active": 0,
-			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false}"
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'enforceInMethodNames': false}"
 			},
 		"no-unexpected-multiline": {
 			"active": 1,
@@ -6104,12 +5964,12 @@
 			"optionString": ""
 			},
 		"no-unsafe-negation": {
-			"active": 0,
+			"active": 1,
 			"optionString": ""
 			},
 		"no-unused-expressions": {
 			"active": 0,
-			"optionString": "{'allowShortCircuit': false, 'allowTernary': false}"
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
 			},
 		"no-unused-labels": {
 			"active": 1,
@@ -6117,18 +5977,18 @@
 			},
 		"no-unused-vars": {
 			"active": 1,
-			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none'}"
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
 			},
 		"no-use-before-define": {
 			"active": 0,
-			"optionString": "{'functions': true, 'classes': true}"
+			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
 			},
 		"no-useless-call": {
 			"active": 0,
 			"optionString": ""
 			},
 		"no-useless-computed-key": {
-			"active": 1,
+			"active": 0,
 			"optionString": ""
 			},
 		"no-useless-concat": {
@@ -6253,7 +6113,7 @@
 			},
 		"quotes": {
 			"active": 0,
-			"optionString": "'double', 'avoid-escape'"
+			"optionString": "'double', {'avoidEscape': true, 'allowTemplateLiterals': true}"
 			},
 		"radix": {
 			"active": 0,
@@ -6265,10 +6125,10 @@
 			},
 		"require-jsdoc": {
 			"active": 0,
-			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false}}"
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
 			},
 		"require-yield": {
-			"active": 0,
+			"active": 1,
 			"optionString": ""
 			},
 		"rest-spread-spacing": {
@@ -6381,7 +6241,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "healing-ministries.org",
+	"externalServerAddress": "http:\/\/healing-ministries.org",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -6747,15 +6607,15 @@
 		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
-		"autoOutputAction": 2,
-		"autoOutputPathFilenamePattern": "*-ck.css",
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.css",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0
 		},
 	"languageDefaultsGIF": {
@@ -6817,8 +6677,8 @@
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
 		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "",
-		"autoOutputPathReplace2": "",
+		"autoOutputPathReplace1": "kit",
+		"autoOutputPathReplace2": "html",
 		"autoOutputPathStyle": 0,
 		"shouldRunCacheBuster": 0
 		},
@@ -6830,7 +6690,7 @@
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"disableJavascript": 0,
 		"ieCompatibility": 1,
 		"outputStyle": 0,
@@ -6862,7 +6722,7 @@
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
-		"autoOutputAction": 2,
+		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.*",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
@@ -6967,7 +6827,7 @@
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"uglifyDefinesString": "",
@@ -7093,7 +6953,7 @@
 			"flagValue": -1
 			},
 		"screw-ie8": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"semicolons": {
