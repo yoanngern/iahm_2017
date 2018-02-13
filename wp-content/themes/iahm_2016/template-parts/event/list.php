@@ -51,6 +51,8 @@
 
 		        }
 
+		        $cat_queried = get_queried_object();
+
 		        wp_dropdown_categories( array(
 			        'show_option_all' => pll__( 'Filter events' ),
 			        'value_field'     => 'slug',
@@ -59,7 +61,7 @@
 			        'hierarchical'    => 1,
 			        'exclude'         => $exclude,
 			        'taxonomy'        => 'iahm_eventcategory',
-			        'selected'        => get_queried_object()->slug
+			        'selected'        => $cat_queried->slug
 		        ) ); ?>
             </div>
 
