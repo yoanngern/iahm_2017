@@ -55,7 +55,7 @@
 
 		        var_dump($cat_queried);
 
-		        error_log($cat_queried);
+		        die();
 
 		        wp_dropdown_categories( array(
 			        'show_option_all' => pll__( 'Filter events' ),
