@@ -2,17 +2,27 @@
 
 <?php
 
-$parent_id = get_ancestors( get_the_ID(), 'page' )[0];
-$children  = get_pages( array( 'child_of' => $parent_id ) );
+$parents = get_ancestors( get_the_ID(), 'page' );
+
+if ( $parents != null ) {
+	$parent_id = $parents[0];
+
+	$children = get_pages( array( 'child_of' => $parent_id ) );
+} else {
+	$parent_id = null;
+	$children  = null;
+
+}
+
 
 if ( count( $children ) != 0 && $parent_id != null ) : ?>
 
-	<?php if ( has_nav_menu( 'principal' ) && !is_child( 'events' ) && !is_child( 'evenements' )) : ?>
-		<section id="subnav" class="dark main">
+	<?php if ( has_nav_menu( 'principal' ) && ! is_child( 'events' ) && ! is_child( 'evenements' ) ) : ?>
+        <section id="subnav" class="dark main">
 
-			<div class="container">
+            <div class="container">
 
-				<div class="block">
+                <div class="block">
 
 
 					<?php
@@ -27,15 +37,15 @@ if ( count( $children ) != 0 && $parent_id != null ) : ?>
 
 					?>
 
-					<a href="/" id="toggle"></a>
-				</div>
+                    <a href="/" id="toggle"></a>
+                </div>
 
-			</div>
+            </div>
 
-		</section>
+        </section>
 	<?php endif; ?>
 
-	<?php if ( is_child( 'events') || is_child( 'evenements') ) :
+	<?php if ( is_child( 'events' ) || is_child( 'evenements' ) ) :
 
 		$nav = wp_nav_menu( array(
 			'theme_location' => 'events',
@@ -50,11 +60,11 @@ if ( count( $children ) != 0 && $parent_id != null ) : ?>
 			?>
 
 
-			<section id="subnav" class="dark events">
+            <section id="subnav" class="dark events">
 
-				<div class="container">
+                <div class="container">
 
-					<div class="block">
+                    <div class="block">
 
 
 						<?php
@@ -69,12 +79,12 @@ if ( count( $children ) != 0 && $parent_id != null ) : ?>
 
 						?>
 
-						<a href="/" id="toggle"></a>
-					</div>
+                        <a href="/" id="toggle"></a>
+                    </div>
 
-				</div>
+                </div>
 
-			</section>
+            </section>
 		<?php endif; ?>
 
 	<?php endif; ?>
