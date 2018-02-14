@@ -23,13 +23,6 @@
 		"oAP": "\/browserconfig.xml",
 		"oF": 0
 		},
-	"\/events.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/events.php",
-		"oF": 0
-		},
 	"\/feed-event.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1492,6 +1485,34 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/includes\/iahm_event.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/includes\/iahm_event.php",
+		"oF": 0
+		},
+	"\/includes\/iahm_location.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/includes\/iahm_location.php",
+		"oF": 0
+		},
+	"\/includes\/iahm_people.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/includes\/iahm_people.php",
+		"oF": 0
+		},
+	"\/includes\/iahm_testimony.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/includes\/iahm_testimony.php",
+		"oF": 0
 		},
 	"\/index.php": {
 		"cB": 0,
@@ -4017,13 +4038,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page_elementor.php",
-		"oF": 0
-		},
-	"\/page_events.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/page_events.php",
 		"oF": 0
 		},
 	"\/page_form.php": {
