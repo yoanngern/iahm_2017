@@ -1,25 +1,11 @@
-<?php get_header( 'events' ); ?>
+<?php
 
 
-<section id="content" class="events">
+if ( is_single() ) {
 
-    <div class="platter">
+	get_template_part( 'template-parts/blog/single');
 
-		<?php
-
-
-		if ( have_posts() ) :
-
-		else :
-
-			get_template_part( 'template-parts/blog/none' );
-
-		endif;
-		?>
-
-
-    </div>
-
-</section>
-
-<?php get_footer(); ?>
+} else {
+	get_template_part( 'template-parts/blog/list');
+}
+?>

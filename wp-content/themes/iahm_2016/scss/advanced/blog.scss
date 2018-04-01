@@ -1,0 +1,19 @@
+.blog_wall {
+    margin: 20px 0;
+
+}
+
+#content.blog {
+
+
+
+    &.video {
+
+        .platter {
+            top: inherit;
+            margin-bottom: inherit;
+            max-width: 1280px;
+        }
+    }
+
+}

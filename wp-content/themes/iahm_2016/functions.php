@@ -12,10 +12,14 @@ add_action( 'wp_enqueue_scripts', 'themeslug_enqueue_style' );
 add_action( 'wp_enqueue_scripts', 'themeslug_enqueue_script' );
 
 
+require_once( __DIR__ . '/includes/acf_fields.php' );
+
+require_once( __DIR__ . '/includes/iahm_blog.php' );
 require_once( __DIR__ . '/includes/iahm_event.php' );
 require_once( __DIR__ . '/includes/iahm_people.php' );
 require_once( __DIR__ . '/includes/iahm_location.php' );
 require_once( __DIR__ . '/includes/iahm_testimony.php' );
+
 
 flush_rewrite_rules();
 
@@ -316,4 +320,56 @@ function get_related_posts( $post, $nb = 3 ) {
 	array_slice( $posts, 0, $nb );
 
 	return $posts;
+}
+
+
+function get_iframe_video( $iframe ) {
+
+
+	if ( $iframe == null ) {
+		return false;
+	}
+
+	// use preg_match to find iframe src
+	preg_match( '/src="(.+?)"/', $iframe, $matches );
+	$src = $matches[1];
+
+	$params = array(
+		'controls'       => 1,
+		'hd'             => 1,
+		'autohide'       => 1,
+		'rel'            => 0,
+		'showinfo'       => 0,
+		'color'          => 'e52639',
+		'title'          => 0,
+		'byline'         => 0,
+		'portrait'       => 0,
+		'data-show-text' => 0
+	);
+
+
+	$new_src = add_query_arg( $params, $src );
+
+	$video = str_replace( $src, $new_src, $iframe );
+
+	$attributes = 'frameborder="0"';
+
+	$iframe = str_replace( '></iframe>', ' ' . $attributes . 'class="video"></iframe>', $video );
+
+	return $iframe;
+
+
+}
+
+function get_api( $name ) {
+
+	$api = array(
+		'youtube' => array(
+			'url' => 'https://www.googleapis.com/youtube/v3/videos?id=hx5TYjlu14A&key=AIzaSyDyF_NOcUN_z2G9IdJb3yf144RiggIOdK8&part=snippet',
+			'key' => 'AIzaSyDyF_NOcUN_z2G9IdJb3yf144RiggIOdK8',
+		)
+	);
+
+	return $api[ $name ];
+
 }

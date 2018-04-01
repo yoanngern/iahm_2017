@@ -31,29 +31,13 @@ body.page-template-page_home {
         }
 
         a.slidesjs-navigation {
-            top: 48px;
+            top: 42px;
         }
 
-        /*
         div#slides {
-            .slidesjs-slide {
-                background-size: cover;
-                background-position: center;
-                background-repeat: no-repeat;
-                height: 85vh;
-                top: -47px;
-                margin-bottom: -47px;
-                position: relative;
-
-
-            }
-        }
-        */
-
-        div#slides {
-            height: 85vh;
-            top: -47px;
-            margin-bottom: -47px;
+            height: 82vh;
+            top: -41px;
+            margin-bottom: -41px;
 
             .slidesjs-container,
             .slidesjs-control {
@@ -76,7 +60,7 @@ body.page-template-page_home {
                 display: inline-block;
                 float: left;
                 width: 25%;
-                height: 15vh;
+                height: 18vh;
                 margin-bottom: -5px;
                 list-style-type: none;
                 box-sizing: border-box;
@@ -88,23 +72,36 @@ body.page-template-page_home {
 
                 a {
                     height: 100%;
-                    padding-top: 100px;
                     width: 100%;
                     display: block;
                     background-size: cover;
                     background-position: bottom center;
                     position: relative;
+                    text-decoration: none;
 
-                    div.image {
-                        width: 90%;
-                        margin-left: 5%;
-                        height: 100%;
+                    .dark {
                         position: absolute;
                         top: 0;
-                        display: block;
-                        background-position: top center;
-                        background-repeat: no-repeat;
-                        background-size: contain;
+                        left: 0;
+                        height: 100%;
+                        width: 100%;
+                        background-color: rgba(black, 0.1);
+                    }
+
+                    h1 {
+                        color: $white;
+                        text-align: center;
+                        font-family: $futura-demi;
+                        position: absolute;
+                        top: 50%;
+                        -webkit-transform: translateY(-50%);
+                        -ms-transform: translateY(-50%);
+                        transform: translateY(-50%);
+                        width: 90%;
+                        left: 5%;
+                        font-size: 1.6em;
+                        line-height: 1.2em;
+                        letter-spacing: 0.01em;
                     }
                 }
 
@@ -142,57 +139,8 @@ body.page-template-page_home {
         section#pub {
             ul li a {
 
-                div.image {
-                    width: 60%;
-                    margin-left: 20%;
-                    top: 6px;
-                }
             }
         }
-    }
-
-    @media only screen and (max-width: 2100px) {
-
-        section#pub {
-
-            ul li a {
-                //height: 8vh;
-            }
-        }
-
-        section#pub {
-            ul li a {
-
-                div.image {
-                    width: 60%;
-                    margin-left: 20%;
-                    top: 6px;
-                }
-            }
-        }
-
-    }
-
-    @media only screen and (max-width: 1600px) {
-
-        section#pub {
-
-            ul li a {
-                //height: 6vh;
-            }
-        }
-
-        section#pub {
-            ul li a {
-
-                div.image {
-                    width: 70%;
-                    margin-left: 15%;
-                    top: 8px;
-                }
-            }
-        }
-
     }
 
     @media only screen and (max-width: 1300px) {
@@ -207,27 +155,15 @@ body.page-template-page_home {
         section#pub {
             ul li a {
 
-                div.image {
-                    width: 70%;
-                    margin-left: 15%;
-                    top: 8px;
-                }
             }
         }
     }
 
     @media only screen and (max-width: 1080px) {
 
-
-
         section#pub {
             ul li a {
 
-                div.image {
-                    width: 80%;
-                    margin-left: 10%;
-                    top: 8px;
-                }
             }
         }
     }
@@ -268,18 +204,14 @@ body.page-template-page_home {
         section#header_home {
             div#slides {
 
-                height: 85vh;
+                height: 78vh;
             }
         }
 
         section#pub {
             ul li {
 
-                height: 15vh;
-
-                a {
-                    padding-top: 8vh;
-                }
+                height: 22vh;
             }
         }
     }
@@ -288,18 +220,14 @@ body.page-template-page_home {
         section#header_home {
             div#slides {
 
-                height: 85vh;
+                height: 80vh;
             }
         }
 
         section#pub {
             ul li {
 
-                height: 15vh;
-
-                a {
-                    padding-top: 4vh;
-                }
+                height: 20vh;
 
             }
         }
@@ -309,24 +237,15 @@ body.page-template-page_home {
         section#header_home {
             div#slides {
 
-                height: 86vh;
+                height: 80vh;
             }
         }
 
         section#pub {
             ul li {
 
-                height: 14vh;
+                height: 20vh;
 
-                a div.image {
-                    margin-top: 20px;
-                    width: 100%;
-                    margin-left: 0;
-                }
-
-                a {
-                    padding-top: 5vh;
-                }
             }
         }
     }
@@ -344,15 +263,6 @@ body.page-template-page_home {
 
                 height: 14vh;
 
-                a div.image {
-                    margin-top: 20px;
-                    width: 100%;
-                    margin-left: 0;
-                }
-
-                a {
-                    padding-top: 5vh;
-                }
             }
         }
     }
@@ -370,15 +280,6 @@ body.page-template-page_home {
 
                 height: 12vh;
 
-                a div.image {
-                    margin-top: 20px;
-                    width: 100%;
-                    margin-left: 0;
-                }
-
-                a {
-                    padding-top: 5vh;
-                }
             }
         }
     }
@@ -396,15 +297,6 @@ body.page-template-page_home {
 
                 height: 12vh;
 
-                a div.image {
-                    margin-top: 20px;
-                    width: 100%;
-                    margin-left: 0;
-                }
-
-                a {
-                    padding-top: 4vh;
-                }
             }
         }
     }
@@ -426,7 +318,8 @@ body.page-template-page_home {
         &[data-ratio="3"],
         &[data-ratio="2"],
         &[data-ratio="1.5"],
-        &[data-ratio="1"] {
+        &[data-ratio="1"],
+        &[data-ratio="0.9"] {
             section#header_home {
                 div#slides {
 
@@ -451,14 +344,15 @@ body.page-template-page_home {
 
                 ul li {
                     width: 50%;
-                    height: inherit;
+                    height: 0;
                     overflow: hidden;
                     margin-bottom: 0;
-
                     border-top: 2px solid $white;
                     border-right: none;
                     border-bottom: 2px solid $white;
                     border-left: none;
+                    position: relative;
+                    padding-bottom: 25.6%;
 
                     &:nth-of-type(1) {
                         border-right: 2px solid $white;
@@ -477,13 +371,9 @@ body.page-template-page_home {
                     }
 
                     a {
-                        padding-bottom: 56.4%;
-                        padding-top: 0;
-
-                        div.image {
-                            margin-top: 0;
-                        }
+                        position: absolute;
                     }
+
                 }
             }
         }
@@ -519,7 +409,6 @@ body.page-template-page_home {
 
                     a {
                         position: relative;
-                        padding-top: 0;
                         margin: 0;
 
                     }
@@ -545,6 +434,7 @@ body.page-template-page_home {
                     height: inherit;
                     overflow: hidden;
                     box-sizing: border-box;
+                    padding-bottom: 52.6%;
 
                     &:nth-of-type(1) {
                         border-right: none;
@@ -560,17 +450,6 @@ body.page-template-page_home {
 
                     &:nth-of-type(4) {
                         border-left: none;
-                    }
-
-                    a {
-                        padding-bottom: 56.4%;
-                        padding-top: 0;
-
-                        div.image {
-                            margin-top: 3%;
-                            width: 80%;
-                            margin-left: 10%;
-                        }
                     }
                 }
             }

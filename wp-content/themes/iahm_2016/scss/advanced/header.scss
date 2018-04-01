@@ -13,10 +13,10 @@ body > header {
     background-color: $black;
 
     div {
-        max-width: 1010px;
-        height: 48px;
+        max-width: 1000px;
+        height: 42px;
         margin: 0 auto;
-        padding: 0 20px;
+        padding: 0 10px;
 
         & > ul {
             display: inline-block;
@@ -25,14 +25,15 @@ body > header {
             li {
                 display: inline-block;
                 vertical-align: top;
+                padding: 0 0.2%;
 
                 &:first-of-type {
-                    padding-left: 17px;
+                    padding-left: 10px;
                     margin-right: 10px;
 
                     a {
-                        width: 38px;
-                        height: 48px;
+                        width: 30px;
+                        height: 40px;
                         top: 0;
                         display: inline-block;
                         background-image: url('images/logo_simple.png');
@@ -61,7 +62,7 @@ body > header {
 
                 &:last-of-type {
                     float: right;
-                    margin-right: 0px;
+                    margin-right: 0;
                 }
 
                 &.current-menu-item,
@@ -81,11 +82,13 @@ body > header {
                 a {
                     color: $white;
                     text-decoration: none;
-                    font-size: 1.25em;
+                    font-size: 1.0625em;
                     display: block;
                     height: 100%;
-                    padding: 2px 15px 0;
-                    line-height: 46px;
+                    padding: 2px 10px 0;
+                    line-height: 40px;
+                    letter-spacing: 0.01em;
+                    transition: all 400ms ease;
 
                     &:hover {
                         background-color: lighten($black, 7);
@@ -122,10 +125,26 @@ body > header {
             }
         }
 
+    }
+
+    @media only screen and (min-width: 1440px) {
+        div {
+            max-width: 1260px;
+
+            & > ul {
+                li {
+                    padding: 0 0.4vw;
+
+                    a {
+                        //padding: 2px 4px 0;
+                    }
+                }
+            }
+        }
 
     }
 
-    @media only screen and (max-width: 1000px) {
+    @media only screen and (max-width: 860px) {
         z-index: 1001;
         div {
 
@@ -169,8 +188,8 @@ body > header {
 
         #simple_logo {
             display: block;
-            width: 38px;
-            height: 48px;
+            width: 30px;
+            height: 40px;
             position: absolute;
             left: 20px;
             top: 0;
@@ -188,8 +207,8 @@ body > header {
 
         #burger {
             display: block;
-            width: 30px;
-            height: 48px;
+            width: 28px;
+            height: 40px;
             position: absolute;
             right: 20px;
             top: 0;

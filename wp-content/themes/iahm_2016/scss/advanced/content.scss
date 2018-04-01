@@ -152,6 +152,40 @@ article.content-page {
         max-width: 100%;
     }
 
+    section.person {
+        margin-top: 30px;
+        margin-bottom: 60px;
+
+        div.picture {
+            display: inline-block;
+            width: 215px;
+            vertical-align: top;
+            margin-right: 15px;
+            margin-top: 20px;
+
+            img {
+                display: block;
+                width: 200px;
+                height: auto;
+                @include border-radius(100px);
+                @include desaturate();
+            }
+        }
+
+        div.bio {
+            display: inline-block;
+
+            vertical-align: top;
+            margin-top: 20px;
+            max-width: 550px;
+
+            p {
+                max-width: inherit;
+                width: 100%;
+            }
+        }
+    }
+
     @media only screen and (max-width: 1050px) {
         padding: 0 20px;
     }

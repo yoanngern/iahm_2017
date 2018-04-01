@@ -51,6 +51,38 @@
         background-size: cover;
     }
 
+    .play {
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        z-index: 100;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        white-space: normal;
+        margin: 0 auto;
+        text-align: center;
+        width: 90%;
+        opacity: 0;
+        transition: opacity 300ms ease;
+
+        &:before {
+            content: "";
+            display: inline-block;
+            @include triangle(45px, 45px, rgba($white, 0.95), "right");
+        }
+    }
+
+    &:hover {
+        .play {
+            opacity: 1;
+        }
+
+        .dark {
+            opacity: 1;
+        }
+    }
+
     h2 {
         font-size: 1.1em;
         color: $black;

@@ -7,7 +7,7 @@ section#subnav {
     display: block;
     left: 0;
     right: 0;
-    top: 48px;
+    top: 42px;
 
     &.fixed {
         position: fixed;
@@ -63,8 +63,10 @@ section#subnav {
                 & > a {
                     font-family: $futura-bold;
                     display: inline-block;
-                    font-size: 1.6em;
+                    font-size: 1.3em;
+                    letter-spacing: 0.02em;
                     text-decoration: none;
+
                 }
 
                 & > ul {
@@ -78,7 +80,8 @@ section#subnav {
                         a {
                             padding: 5px;
                             text-decoration: none;
-                            font-size: 1.1em;
+                            font-size: 1em;
+                            letter-spacing: 0.01em;
                         }
 
                         ul {

@@ -1,54 +1,9 @@
 main[data-template="live"] {
 
-    section#video_header {
-        background-color: black;
 
-        div.content {
-            max-width: 1230px;
-            width: auto;
-            margin: 0 auto;
-            overflow: hidden;
 
-            article.video {
-                padding-bottom: 56.4%;
-                position: relative;
-                display: block;
-
-                iframe {
-                    position: absolute;
-                    display: block;
-                    height: 100%;
-                }
-            }
-
-            article.fb-video {
-                margin: 0 auto;
-                display: block;
-
-                span {
-                    display: block;
-                    margin: 0 auto;
-                }
-
-                iframe {
-                    position: absolute;
-                    display: block;
-                    height: 100%;
-                }
-            }
-        }
-
-        @media only screen and (max-height: 800px) {
-            div.content {
-                max-width: 880px;
-            }
-        }
-
-        @media only screen and (max-height: 650px) {
-            div.content {
-                max-width: 540px;
-            }
-        }
+    section#other_videos {
+        padding: 70px 0;
     }
 
     section#title {
