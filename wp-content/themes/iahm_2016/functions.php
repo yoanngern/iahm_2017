@@ -1,7 +1,7 @@
 <?php
 
 function themeslug_enqueue_style() {
-	wp_enqueue_style( 'core', get_template_directory_uri() . '/style.css', false );
+	wp_enqueue_style( 'core', get_template_directory_uri() . '/style_v2.css', false );
 }
 
 function themeslug_enqueue_script() {
@@ -11,6 +11,7 @@ function themeslug_enqueue_script() {
 add_action( 'wp_enqueue_scripts', 'themeslug_enqueue_style' );
 add_action( 'wp_enqueue_scripts', 'themeslug_enqueue_script' );
 
+require_once( __DIR__ . '/includes/iahm_date.php' );
 
 require_once( __DIR__ . '/includes/acf_fields.php' );
 

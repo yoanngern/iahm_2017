@@ -27,6 +27,7 @@
 
 						<?php if ( get_field( 'button' ) && get_field( 'button_link' ) ):
 
+							$button = true;
 
 							if ( get_field( 'button_text' ) ) {
 								$button_text = get_field( 'button_text' );
@@ -44,7 +45,9 @@
 
 						<?php endif; ?>
 
-                        <time><?php echo complex_date( get_field( 'start_date' ), get_field( 'end_date' ) ); ?></time>
+                        <time class="<?php if ( !$button ) {
+							echo "left";
+						} ?>"><?php echo complex_date( get_field( 'start_date' ), get_field( 'end_date' ) ); ?></time>
 
                     </div>
 
@@ -56,7 +59,8 @@
 
                     <div class="content">
 
-						<?php //the_content(); ?>
+						<?php //the_content();
+						?>
 
 						<?php echo get_field( 'description' ); ?>
 
@@ -181,19 +185,19 @@ if ( get_field( 'speakers' ) || get_field( 'worship_leaders' ) ):?>
                     <section class="day">
                         <div class="title">
                             <div class="bullet"></div>
-                            <h2><?php echo date_i18n( 'l j', strtotime( $date->format('d-m-Y') ) ); ?></h2>
+                            <h2><?php echo date_i18n( 'l j', strtotime( $date->format( 'd-m-Y' ) ) ); ?></h2>
                         </div>
                         <div class="line"></div>
 
 						<?php while ( have_rows( 'slot' ) ): the_row();
 
-							$date = new DateTime( '01-01-1970 ' . get_sub_field('time') );
+							$date = new DateTime( '01-01-1970 ' . get_sub_field( 'time' ) );
 
 							?>
                             <article class="slot">
                                 <div class="bullet"></div>
 
-                                <time><?php echo time_trans($date); ?></time>
+                                <time><?php echo time_trans( $date ); ?></time>
                                 <div class="desc">
                                     <h3><?php echo get_sub_field( 'title' ); ?></h3>
                                     <span><?php echo get_sub_field( 'subtitle' ); ?></span>

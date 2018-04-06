@@ -115,8 +115,13 @@ article.content-page.iahm_event.default {
                 margin: 0;
                 font-size: 1.45em;
                 text-align: center;
+
                 margin-top: 15px;
                 font-family: $futura-bold;
+
+                &.left {
+                    text-align: left;
+                }
             }
 
             a.button {

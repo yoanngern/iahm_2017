@@ -1591,6 +1591,13 @@
 		"oAP": "\/includes\/iahm_blog.php",
 		"oF": 0
 		},
+	"\/includes\/iahm_date.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/includes\/iahm_date.php",
+		"oF": 0
+		},
 	"\/includes\/iahm_event.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -4883,7 +4890,7 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/scss\/style.scss": {
+	"\/scss\/style_v2.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -4891,7 +4898,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/style.css",
+		"oAP": "\/style_v2.css",
 		"oF": 2,
 		"oS": 0,
 		"uL": 1

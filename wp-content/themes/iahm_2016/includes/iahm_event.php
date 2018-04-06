@@ -72,223 +72,264 @@ function create_eventcategory_taxonomy() {
 
 add_action( 'init', 'create_eventcategory_taxonomy', 0 );
 
-add_action( 'rest_api_init', function () {
-	register_rest_field( 'iahm_event', 'event_title', array(
-		'get_callback' => function ( $event_arr ) {
-			$event_obj = get_post( $event_arr['id'] );
+function custom_disable_months_dropdown( $false, $post_type ) {
 
-			return (string) $event_obj->post_title;
-		},
-		'schema'       => array(
-			'description' => __( 'event_title' ),
-			'type'        => 'String'
-		),
-	) );
+	$disable_months_dropdown = $false;
 
-	register_rest_field( 'iahm_event', 'event_start_date', array(
-		'get_callback' => function ( $event_arr ) {
-			$event_obj = get_post( $event_arr['id'] );
+	$disable_post_types = array( 'iahm_event' );
 
-			return get_field( 'start_date', $event_obj->ID );
-		},
-		'schema'       => array(
-			'description' => __( 'event_start_date' ),
-			'type'        => 'String'
-		),
-	) );
+	if ( in_array( $post_type, $disable_post_types ) ) {
 
-	register_rest_field( 'iahm_event', 'event_end_date', array(
-		'get_callback' => function ( $event_arr ) {
-			$event_obj = get_post( $event_arr['id'] );
+		$disable_months_dropdown = true;
 
-			return get_field( 'end_date', $event_obj->ID );
-		},
-		'schema'       => array(
-			'description' => __( 'event_end_date' ),
-			'type'        => 'String'
-		),
-	) );
+	}
 
-	register_rest_field( 'iahm_event', 'order', array(
-		'get_callback' => function ( $event_arr ) {
-			$event_obj = get_post( $event_arr['id'] );
+	return $disable_months_dropdown;
 
-			return (int) strtotime( get_field( 'start_date', $event_obj->ID ) );
-		},
-		'schema'       => array(
-			'description' => __( 'order' ),
-			'type'        => 'int'
-		),
-	) );
+}
 
-	register_rest_field( 'iahm_event', 'upcoming', array(
-		'get_callback' => function ( $event_arr ) {
-			$event_obj = get_post( $event_arr['id'] );
+add_filter( 'disable_months_dropdown', 'custom_disable_months_dropdown', 10, 2 );
 
-			$return = false;
+/**
+ * Event column
+ *
+ * @param $columns
+ *
+ * @return array
+ */
+function iahm_event_column( $columns ) {
 
-			if ( strtotime( get_field( 'start_date', $event_obj->ID ) ) ) {
-				$return = true;
+	$columns = array(
+		'cb'          => '<input type="checkbox" />',
+		//'title'      => 'Title',
+		'event_title' => 'Title',
+		'event_date'  => 'Date',
+		'category'    => 'Category',
+	);
+
+	return $columns;
+}
+
+add_filter( 'manage_edit-iahm_event_columns', 'iahm_event_column' );
+
+/**
+ * Event column content
+ *
+ * @param $column
+ */
+function iahm_event_custom_column( $column ) {
+	global $post;
+
+	$curr_cat = get_query_var( "iahm_eventcategory" );
+
+	$start = get_field( 'start_date', $post );
+	$end   = get_field( 'end_date', $post );
+
+	$start_o = new DateTime( $start );
+	$end_o   = new DateTime( $end );
+
+	$start_t = $start_o->getTimestamp();
+	$end_t   = $end_o->getTimestamp();
+
+	if ( $column == "event_title" ) {
+
+		$id = $post->ID;
+
+		$txt = get_the_title();
+
+		echo "<a class='row-title' href='/wp-admin/post.php?post=$id&action=edit'>$txt</a>";
+
+	} elseif ( $column == 'event_date' ) {
+
+		echo complex_date( $start, $end );
+
+		//echo date_i18n( get_option( 'date_format' ), strtotime( get_field( 'start_date', $post ) ) );
+
+	} elseif ( $column == 'category' ) {
+
+		foreach ( get_the_terms( $post, array( 'taxonomy' => 'iahm_eventcategory' ) ) as $cat ) {
+
+			$name  = $cat->name;
+			$slug  = $cat->slug;
+			$class = "";
+
+			if ( $curr_cat == $slug ) {
+				$class = 'current';
 			}
 
-			return (boolean) $return;
-		},
-		'schema'       => array(
-			'description' => __( 'upcoming' ),
-			'type'        => 'boolean'
+			echo "<a class='$class' href='edit.php?post_type=iahm_event&iahm_eventcategory=$slug'>$name</a>";
+
+
+		}
+
+	}
+}
+
+add_action( "manage_posts_custom_column", "iahm_event_custom_column" );
+
+
+/**
+ * @param $views
+ *
+ * @return mixed
+ */
+function iahm_service_views( $views ) {
+
+
+	unset( $views['publish'] );
+	unset( $views['draft'] );
+	unset( $views['trash'] );
+	unset( $views['pending'] );
+	unset( $views['all'] );
+
+
+	$post_timing = $_GET['post_timing'];
+	$post_status = $_GET['post_status'];
+	$category    = $_GET['iahm_eventcategory'];
+
+
+	$tabs = array(
+		array(
+			'timing' => 'future',
+			'name'   => pll__( 'Next events' )
 		),
-	) );
-} );
-
-add_filter( 'rest_query_vars', 'test_query_vars' );
-function test_query_vars( $vars ) {
-	$vars[] = 'meta_query';
-
-	return $vars;
-}
+		array(
+			'timing' => 'past',
+			'name'   => pll__( 'Previous events' )
+		)
+	);
 
 
+	foreach ( $tabs as $tab ) {
 
-function time_trans( $date ) {
-	if ( get_locale() == "fr_FR" ) :
+		$timing = $tab['timing'];
+		$name   = $tab['name'];
 
-		$time = date_i18n( 'H:i', strtotime( $date->format( 'H:i' ) ) );
+		if ( $post_timing == $timing ) {
+			$class = 'current';
+		} else {
+			$class = "";
+		}
 
-	else:
-		$time = date_i18n( 'g:i a', strtotime( $date->format( 'H:i' ) ) );
-	endif;
+		if ( $post_status == '' && $timing == 'future' && $post_timing == '' ) {
+			$class = 'current';
+		}
 
-	return $time;
-}
+		$views[ $timing ] = "<a class='$class' href='edit.php?post_type=iahm_event&iahm_eventcategory=$category&post_timing=$timing'>$name</a>";
 
-function complex_date( $start, $end ) {
+	}
 
-	if ( $start != $end ):
+	$statuses = array(
+		array(
+			'slug'   => 'post_draft',
+			'name'   => pll__( 'Drafts' ),
+			'status' => 'draft'
+		),
+		array(
+			'slug'   => 'post_trash',
+			'name'   => pll__( 'Trash' ),
+			'status' => 'trash'
+		),
+	);
 
-		// French
-		if ( get_locale() == "fr_FR" ) :
+	foreach ( $statuses as $status ) {
 
-			if ( date( 'Y', strtotime( $start ) ) == date( 'Y', strtotime( $end ) ) ):
+		$slug        = $status['slug'];
+		$name        = $status['name'];
+		$status_name = $status['status'];
 
-				if ( date( 'm', strtotime( $start ) ) == date( 'm', strtotime( $end ) ) ):
+		if ( $status_name == $post_status ) {
+			$class = 'current';
+		} else {
+			$class = '';
+		}
 
-					$date = date_i18n( 'j', strtotime( $start ) ) . ' - ' . date_i18n( 'j F Y', strtotime( $end ) );
+		$views[ $slug ] = "<a class='$class' href='edit.php?post_type=iahm_event&iahm_eventcategory=$category&post_status=$status_name'>$name</a>";
 
-				else:
+	}
 
-					$date = date_i18n( 'j M', strtotime( $start ) ) . ' - ' . date_i18n( 'j M Y', strtotime( $end ) );
-
-				endif;
-
-			else:
-
-				$date = date_i18n( 'j M Y', strtotime( $start ) ) . ' - ' . date_i18n( 'j M Y', strtotime( $end ) );
-
-			endif;
-
-
-		// English
-		else:
-
-			if ( date( 'Y', strtotime( $start ) ) == date( 'Y', strtotime( $end ) ) ):
-
-				if ( date( 'm', strtotime( $start ) ) == date( 'm', strtotime( $end ) ) ):
-
-					$date = date_i18n( 'M jS', strtotime( $start ) ) . ' - ' . date_i18n( 'jS Y', strtotime( $end ) );
-
-				else:
-
-					$date = date_i18n( 'M jS', strtotime( $start ) ) . ' - ' . date_i18n( 'M jS Y', strtotime( $end ) );
-
-				endif;
-
-			else:
-
-				$date = date_i18n( 'M j, Y', strtotime( $start ) ) . ' - ' . date_i18n( 'M j, Y', strtotime( $end ) );
-
-			endif;
-
-		endif;
-
-	// one day
-	else:
-
-		//$start = new DateTime($start);
-
-		$date = date_i18n( get_option( 'date_format' ), strtotime( $start ) );
-
-	endif;
-
-	return $date;
+	return $views;
 
 }
 
+add_filter( 'views_edit-iahm_event', 'iahm_service_views' );
+
+
+function iahm_filter_events() {
+	$screen = get_current_screen();
+	global $wp_query;
+	if ( $screen->post_type == 'iahm_event' ) {
+		wp_dropdown_categories( array(
+			'show_option_all' => 'Show All Categories',
+			'taxonomy'        => 'iahm_eventcategory',
+			'name'            => 'iahm_eventcategory',
+			'orderby'         => 'name',
+			'selected'        => ( isset( $wp_query->query['iahm_eventcategory'] ) ? $wp_query->query['iahm_eventcategory'] : '' ),
+			'hierarchical'    => false,
+			'depth'           => 3,
+			'show_count'      => false,
+			'hide_empty'      => true,
+		) );
+	}
+}
+
+add_action( 'restrict_manage_posts', 'iahm_filter_events' );
+
+function perform_filtering( $query ) {
+	$qv = &$query->query_vars;
+
+	if ( ( $qv['iahm_eventcategory'] ) && is_numeric( $qv['iahm_eventcategory'] ) ) {
+		$term                     = get_term_by( 'id', $qv['iahm_eventcategory'], 'iahm_eventcategory' );
+		$qv['iahm_eventcategory'] = $term->slug;
+	}
+}
+
+add_filter( 'parse_query', 'perform_filtering' );
+
+
+/**
+ * Order Event
+ *
+ * @param $query
+ *
+ * @return mixed
+ */
 function iahm_order_events( $query ) {
 
+	$post_status = $_GET['post_status'];
+	$post_timing = $_GET['post_timing'];
+	$category    = $_GET['iahm_eventcategory'];
 
-	if ( is_admin() && isset( $query->query_vars['post_type'] ) && $query->query_vars['post_type'] == 'iahm_event' ) {
-		$query->set( 'orderby', 'meta_value' );
-		$query->set( 'meta_key', 'start_date' );
-		$query->set( 'order', 'asc' );
-
+	if ( $query->query_vars['post_type'] != 'iahm_event' ) {
 		return;
 	}
 
-	if ( ! $query->is_main_query() ) {
 
-		return;
+	if ( $post_status == '' ) {
+		$post_status = 'all';
 	}
 
-	// only modify queries for 'iahm_eventcategory' term
-	if ( isset( $query->query_vars['iahm_eventcategory'] ) ) {
-		$query->set( 'orderby', 'meta_value' );
-		$query->set( 'meta_key', 'start_date' );
-		$query->set( 'meta_key', 'end_date' );
-		$query->set( 'order', 'asc' );
+	if ( $post_timing == '' ) {
+		$post_timing = 'all';
+	}
 
-		$today = date( 'Ymd' );
+	if ( is_admin()
+	     && $query->is_main_query()
+	     && ! filter_input( INPUT_GET, 'post_status' )
+	     //&& ! filter_input( INPUT_GET, 'iahm_eventcategory' )
+	     && ( $screen = get_current_screen() ) instanceof \WP_Screen
+	     && $post_timing == ''
+	) {
 
-		$query->set( 'meta_query', array(
-			array(
-				'key'     => 'end_date',
-				'compare' => '>=',
-				'value'   => $today,
-			)
-		) );
+		$post_timing = 'future';
+
 	}
 
 
-	// only modify queries for 'iahm_event' post type
-	if ( ! is_single() && isset( $query->query_vars['post_type'] ) && $query->query_vars['post_type'] == 'iahm_event' ) {
+	$query = order_dates( $query, 'iahm_event', 'iahm_eventcategory', $post_status, $post_timing );
 
-		$query->set( 'orderby', 'meta_value' );
-		$query->set( 'meta_key', 'start_date' );
-		$query->set( 'meta_key', 'end_date' );
-		$query->set( 'order', 'asc' );
+	return $query;
 
-		$today = date( 'Ymd' );
-
-		$query->set( 'meta_query', array(
-			array(
-				'key'     => 'end_date',
-				'compare' => '>=',
-				'value'   => $today,
-			)
-		) );
-
-
-		/*
-		$query->set( 'meta_query', array(
-			array(
-				'key'     => 'start_date',
-				'compare' => '>=',
-				'value'   => $today,
-			)
-		) );
-		*/
-
-
-	}
 
 }
 
