@@ -40,7 +40,7 @@ if ( get_field( 'facebook_video' ) ):
 
         <article class="content-page">
 
-            <h1 class="page-title">Les soirées précédentes</h1>
+            <h1 class="page-title"> <?php pll_e('Previous nights') ?></h1>
 
 			<?php
 
