@@ -7,7 +7,7 @@
 		"uuidString": "0245A202-C09D-483C-B53A-03B61EEA25DF"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/404.php": {
 		"cB": 0,
@@ -1290,6 +1290,7 @@
 	"\/images\/facebook_default_home.jpg": {
 		"ft": 16384,
 		"iS": 502558,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/facebook_default_home.jpg",
 		"oF": 0,
@@ -1361,6 +1362,7 @@
 	"\/images\/header_red.jpg": {
 		"ft": 16384,
 		"iS": 130004,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/header_red.jpg",
 		"oF": 0,
@@ -4913,6 +4915,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/style_v2.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/style_v2-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/template-parts\/blog\/index.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -5020,7 +5032,8 @@
 	"creationDate": 540232679,
 	"displayValue": "IAHM 2017",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "\/images\/apple-touch-icon.png"
+	"iconImageName": "\/images\/apple-touch-icon_120.png",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -6823,6 +6836,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {

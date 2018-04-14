@@ -152,18 +152,23 @@ section#video_header {
         }
 
         article.fb-video {
+            padding-bottom: 56.4%;
             margin: 0 auto;
             display: block;
 
             span {
                 display: block;
                 margin: 0 auto;
+                height: 100% !important;
+                width: 100% !important;
+                position: absolute;
             }
 
             iframe {
                 position: absolute;
                 display: block;
-                height: 100%;
+                height: 100% !important;
+                width: 100% !important;
             }
         }
     }

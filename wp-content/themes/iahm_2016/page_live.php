@@ -29,8 +29,8 @@ if ( get_field( 'facebook_video' ) ):
         <div class="content">
 
             <article class="fb-video"
-                     data-href="<?php echo get_field( 'live_video_url' ); ?>/"
-                     data-width="960" data-show-text="false">
+                     data-href="<?php echo get_field( 'live_video_url' ); ?>"
+                     data-width="100%" data-show-text="false">
             </article>
 
         </div>
