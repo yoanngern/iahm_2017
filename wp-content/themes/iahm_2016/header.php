@@ -60,7 +60,7 @@
           content="<?php echo $meta_fb_desc; ?>"/>
     <meta property="og:image"
           content="<?php echo $meta_fb_image; ?>"/>
-    <meta property="og:url" content="<?php echo get_post_embed_url(); ?>"/>
+    <meta property="og:url" content="<?php echo get_site_url(); ?>"/>
 
 	<?php if ( is_singular() && pings_open( get_queried_object() ) ) : ?>
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
