@@ -54,13 +54,12 @@
 		$meta_fb_image = "https://healing-ministries.org/wp-content/themes/iahm_2016/images/facebook_default_home.jpg";
 	endif; ?>
 
-    <meta property="og:type" content="website"/>
+
     <meta property="og:title" content="<?php echo $meta_fb_title; ?>"/>
     <meta property="og:description"
           content="<?php echo $meta_fb_desc; ?>"/>
     <meta property="og:image"
           content="<?php echo $meta_fb_image; ?>"/>
-    <meta property="og:url" content="<?php echo get_site_url(); ?>"/>
 
 	<?php if ( is_singular() && pings_open( get_queried_object() ) ) : ?>
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
