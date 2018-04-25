@@ -61,6 +61,10 @@
     <meta property="og:image"
           content="<?php echo $meta_fb_image; ?>"/>
 
+    <meta property="og:type" content="website" />
+
+    <meta property="fb:app_id" content="1160743764014114" />
+
 	<?php if ( is_singular() && pings_open( get_queried_object() ) ) : ?>
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<?php endif; ?>
