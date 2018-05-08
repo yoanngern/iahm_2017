@@ -60,8 +60,7 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
 
 	//$created_timestamp = date( "Y-m-t  H:i:s", strtotime( "+1 month" ) );
 
-
-	$last = date( "Ymd", strtotime( date( "Y-m-d  H:i:s", strtotime( "+1 month" ) ) ) );
+	$last = date( "Ymd", strtotime( date( 'm', strtotime( '+2 month' ) ) . '/01/' . date( 'Y', strtotime( '+1 month' ) ) . ' 00:00:00' ) );
 
 
 	$query->set( 'meta_query', array(
@@ -78,9 +77,7 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
 		)
 	) );
 
-
 	$events = $query->get_posts();
-
 
 	wp_reset_query();
 
@@ -133,7 +130,8 @@ echo '<?xml version="1.0" encoding="' . get_option( 'blog_charset' ) . '"?' . '>
             <link rel="alternate" type="text/html" href="<?php the_permalink_rss(); ?>"/>
             <media:content
                     url="<?php echo get_field_or_parent( 'thumb', get_the_ID(), 'iahm_eventcategory' )['sizes']['mailchimp_list']; ?>"
-                    type="image/jpg"/>
+                    type="image/jpg"
+                    width="100%"/>
             <summary type="html"><![CDATA[<?php echo "<p>test</p>" ?>]]></summary>
             <content type="html"><![CDATA[<?php echo "<p>test</p>" ?>]]></content>
         </entry>
