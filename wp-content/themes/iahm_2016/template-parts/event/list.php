@@ -39,7 +39,7 @@
 				        $end_date = get_field( "end_date", $event );
 
 
-				        if ( $end_date < date( 'Y-m-d' ) ) {
+				        if ( $end_date < date( 'Ymd' ) ) {
 					        unset( $events[ $key ] );
 				        }
 			        }
@@ -72,6 +72,28 @@
 
 		<?php
 
+		global $wp_query;
+
+        $query = new WP_Query();
+		$query->set( 'orderby', 'meta_value' );
+		$query->set( 'meta_key', 'start_date' );
+		$query->set( 'meta_key', 'end_date' );
+		$query->set( 'order', 'asc' );
+
+		//$today = date( 'Y-m-d H:i:s' );
+		$today = date( 'Ymd' );
+
+		$query->set( 'meta_query', array(
+			array(
+				'key'     => 'end_date',
+				'compare' => '>=',
+				'value'   => $today,
+			)
+		) );
+
+		$args = array_merge( $wp_query->query_vars, $query->query_vars );
+		query_posts( $args );
+
 
 		if ( have_posts() ) : ?>
 
@@ -82,9 +104,10 @@
 
 					<?php
 
+
 					/* Start the Loop */
-					while ( have_posts() ) :
-						the_post();
+					while ( have_posts() ) : the_post();
+
 
 						get_template_part( 'template-parts/event/item' );
 
