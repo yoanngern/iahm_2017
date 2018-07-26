@@ -1888,6 +1888,8 @@ body.single-iahm_event section#newsletter {
     font-family: "FuturaPT-Demi", "FuturaPT-Heavy", "FuturaPT-Book", Arial, Helvetica, Verdana sans-serif; }
   .nf-form-cont .nf-error-msg {
     font-size: 0.9em; }
+  .nf-form-cont .nf-field-description .hide {
+    display: none; }
 
 .nf-multi-cell div.nf-cell {
   padding: 0 2% 0 0; }

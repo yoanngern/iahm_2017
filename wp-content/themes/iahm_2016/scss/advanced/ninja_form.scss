@@ -43,6 +43,13 @@
     .nf-error-msg {
         font-size: 0.9em;
     }
+
+    .nf-field-description {
+        .hide {
+            display: none;
+
+        }
+    }
 }
 
 .nf-multi-cell {
