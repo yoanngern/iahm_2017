@@ -127,6 +127,11 @@ body > header {
 
     }
 
+
+    ul.mobile_lang {
+        display: none;
+    }
+
     @media only screen and (min-width: 1440px) {
         div {
             max-width: 1260px;
@@ -181,9 +186,36 @@ body > header {
                         float: inherit;
                     }
 
+                    &.lang-item {
+                        display: none;
+                    }
+
                 }
             }
 
+        }
+
+        ul.mobile_lang {
+            position: absolute;
+            display: block;
+            top: 0;
+            right: 60px;
+
+            li {
+                display: inline-block;
+                a {
+                    width: 28px;
+                    height: 22px;
+                    display: block;
+                    margin: 8px 0;
+
+                    img {
+                        margin: 0 auto;
+                        display: block;
+                        padding: 7px 0;
+                    }
+                }
+            }
         }
 
         #simple_logo {

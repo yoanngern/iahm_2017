@@ -270,6 +270,8 @@ body > header {
           margin: 12px 10px 0 0; }
           body > header div > ul li#burger a:hover {
             background-color: transparent; }
+  body > header ul.mobile_lang {
+    display: none; }
   @media only screen and (min-width: 1440px) {
     body > header div {
       max-width: 1260px; }
@@ -301,6 +303,24 @@ body > header {
             display: none; }
           body > header div ul li:last-of-type {
             float: inherit; }
+          body > header div ul li.lang-item {
+            display: none; }
+      body > header ul.mobile_lang {
+        position: absolute;
+        display: block;
+        top: 0;
+        right: 60px; }
+        body > header ul.mobile_lang li {
+          display: inline-block; }
+          body > header ul.mobile_lang li a {
+            width: 28px;
+            height: 22px;
+            display: block;
+            margin: 8px 0; }
+            body > header ul.mobile_lang li a img {
+              margin: 0 auto;
+              display: block;
+              padding: 7px 0; }
       body > header #simple_logo {
         display: block;
         width: 30px;

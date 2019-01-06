@@ -133,6 +133,12 @@
 	) );
 	?>
 
+
+    <ul class="mobile_lang">
+		<?php pll_the_languages( array( 'show_flags' => 1, 'show_names' => 0, 'hide_current' => 1 ) ); ?>
+    </ul>
+
+
     <a href="/" id="burger"></a>
 
 </header>
