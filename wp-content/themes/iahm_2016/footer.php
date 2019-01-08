@@ -27,7 +27,7 @@
 				<ul class="phone"><h1>Téléphone</h1>
 					<li><a href="">+41 (0) 21 907 44 44</a></li>
 					<p>Heures téléphone :<br/>
-						lu-ve de 14h à 17h30</p></ul>
+						lu-ve de 9h à 12h</p></ul>
 				<ul class="languages"><h1>Changer de langue</h1>
 					<?php
 					wp_nav_menu( array(
@@ -47,7 +47,7 @@
 				<ul class="phone"><h1>Phone</h1>
 					<li><a href="">+41 (0) 21 907 44 44</a></li>
 					<p>Phone schedules :<br/>
-						Mo-Fr from 2pm to 5:30pm</p></ul>
+						Mo-Fr from 9am to 12pm</p></ul>
 				<ul class="languages"><h1>Change language</h1>
 					<?php
 					wp_nav_menu( array(
