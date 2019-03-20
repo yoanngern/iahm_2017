@@ -4925,6 +4925,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/style_v3.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style_v3-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/template-parts/blog/index.php": {
 		"cB": 0,
 		"ft": 8192,
