@@ -7,9 +7,10 @@ wp-content/blogs.dir/
 wp-content/cache/
 wp-content/upgrade/
 wp-content/uploads/
+wp-content/mu-plugins/
 wp-content/wp-cache-config.php
-wp-content/plugins/
-wp-content/languages/
+wp-content/plugins/hello.php
+
 
 
 /.htaccess
@@ -18,5 +19,6 @@ wp-content/languages/
 /sitemap.xml
 /sitemap.xml.gz
 
-/.idea
+.DS_Store
 
+/.idea
