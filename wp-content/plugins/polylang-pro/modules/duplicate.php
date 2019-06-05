@@ -481,7 +481,16 @@ class PLL_Duplicate extends PLL_Metabox_Button {
 			}
 		}
 
-		return $blocks;
+		/**
+		 * Filters parsed blocks after core blocks have been translated
+		 *
+		 * @since 2.5.3
+		 *
+		 * @param array  $blocks List of blocks
+		 * @param string $lang   Language of target
+		 * @return array
+		 */
+		return apply_filters( 'pll_translate_blocks', $blocks, $this->language->slug );
 	}
 
 	/**

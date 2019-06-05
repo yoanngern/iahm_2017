@@ -283,7 +283,7 @@ class PLL_TEC {
 	 * @return string
 	 */
 	public function get_link( $link ) {
-		if ( ! empty( PLL()->curlang ) ) {
+		if ( ! empty( PLL()->curlang ) && ! empty( self::$slugs ) ) {
 			$link = PLL()->links_model->add_language_to_link( $link, PLL()->curlang );
 			$link = PLL()->translate_slugs->slugs_model->translate_slug( $link, PLL()->curlang, 'archive_tribe_events' );
 

@@ -46,8 +46,7 @@
       padding: 13px 0;
       outline: 0; }
       .dialog-type-lightbox .dialog-buttons-wrapper > .dialog-button:first-child {
-        color: #6d7882;
-        border-left: 1px solid #e6e9ec; }
+        color: #6d7882; }
       .dialog-type-lightbox .dialog-buttons-wrapper > .dialog-button:hover {
         background-color: #f4f6f7; }
       .dialog-type-lightbox .dialog-buttons-wrapper > .dialog-button.dialog-ok {
@@ -63,7 +62,7 @@
   cursor: pointer;
   position: absolute;
   top: 30px;
-  right: 30px;
+  left: 30px;
   font-size: 15px;
   line-height: 1; }
   .dialog-close-button:not(:hover) {
@@ -71,6 +70,9 @@
 
 .dialog-alert-widget .dialog-buttons-wrapper > button {
   width: 100%; }
+
+.dialog-confirm-widget .dialog-button:first-child {
+  border-left: 1px solid #e6e9ec; }
 
 .dialog-prevent-scroll {
   overflow: hidden;
@@ -741,100 +743,45 @@ ul.elementor-icon-list-items.elementor-inline-items {
   grid-template-columns: repeat(1, 1fr);
   display: grid; }
 
-.elementor-grid-0 .elementor-grid {
-  display: flex;
-  overflow: hidden;
-  flex-wrap: wrap; }
-
 .elementor-grid-2 .elementor-grid {
   grid-template-columns: repeat(2, 1fr);
   display: grid; }
-
-.elementor-grid-0 .elementor-grid {
-  display: flex;
-  overflow: hidden;
-  flex-wrap: wrap; }
 
 .elementor-grid-3 .elementor-grid {
   grid-template-columns: repeat(3, 1fr);
   display: grid; }
 
-.elementor-grid-0 .elementor-grid {
-  display: flex;
-  overflow: hidden;
-  flex-wrap: wrap; }
-
 .elementor-grid-4 .elementor-grid {
   grid-template-columns: repeat(4, 1fr);
   display: grid; }
-
-.elementor-grid-0 .elementor-grid {
-  display: flex;
-  overflow: hidden;
-  flex-wrap: wrap; }
 
 .elementor-grid-5 .elementor-grid {
   grid-template-columns: repeat(5, 1fr);
   display: grid; }
 
-.elementor-grid-0 .elementor-grid {
-  display: flex;
-  overflow: hidden;
-  flex-wrap: wrap; }
-
 .elementor-grid-6 .elementor-grid {
   grid-template-columns: repeat(6, 1fr);
   display: grid; }
-
-.elementor-grid-0 .elementor-grid {
-  display: flex;
-  overflow: hidden;
-  flex-wrap: wrap; }
 
 .elementor-grid-7 .elementor-grid {
   grid-template-columns: repeat(7, 1fr);
   display: grid; }
 
-.elementor-grid-0 .elementor-grid {
-  display: flex;
-  overflow: hidden;
-  flex-wrap: wrap; }
-
 .elementor-grid-8 .elementor-grid {
   grid-template-columns: repeat(8, 1fr);
   display: grid; }
-
-.elementor-grid-0 .elementor-grid {
-  display: flex;
-  overflow: hidden;
-  flex-wrap: wrap; }
 
 .elementor-grid-9 .elementor-grid {
   grid-template-columns: repeat(9, 1fr);
   display: grid; }
 
-.elementor-grid-0 .elementor-grid {
-  display: flex;
-  overflow: hidden;
-  flex-wrap: wrap; }
-
 .elementor-grid-10 .elementor-grid {
   grid-template-columns: repeat(10, 1fr);
   display: grid; }
 
-.elementor-grid-0 .elementor-grid {
-  display: flex;
-  overflow: hidden;
-  flex-wrap: wrap; }
-
 .elementor-grid-11 .elementor-grid {
   grid-template-columns: repeat(11, 1fr);
   display: grid; }
-
-.elementor-grid-0 .elementor-grid {
-  display: flex;
-  overflow: hidden;
-  flex-wrap: wrap; }
 
 .elementor-grid-12 .elementor-grid {
   grid-template-columns: repeat(12, 1fr);
@@ -848,80 +795,36 @@ ul.elementor-icon-list-items.elementor-inline-items {
   .elementor-grid-tablet-1 .elementor-grid {
     grid-template-columns: repeat(1, 1fr);
     display: grid; }
-  .elementor-grid-tablet-0 .elementor-grid {
-    display: flex;
-    overflow: hidden;
-    flex-wrap: wrap; }
   .elementor-grid-tablet-2 .elementor-grid {
     grid-template-columns: repeat(2, 1fr);
     display: grid; }
-  .elementor-grid-tablet-0 .elementor-grid {
-    display: flex;
-    overflow: hidden;
-    flex-wrap: wrap; }
   .elementor-grid-tablet-3 .elementor-grid {
     grid-template-columns: repeat(3, 1fr);
     display: grid; }
-  .elementor-grid-tablet-0 .elementor-grid {
-    display: flex;
-    overflow: hidden;
-    flex-wrap: wrap; }
   .elementor-grid-tablet-4 .elementor-grid {
     grid-template-columns: repeat(4, 1fr);
     display: grid; }
-  .elementor-grid-tablet-0 .elementor-grid {
-    display: flex;
-    overflow: hidden;
-    flex-wrap: wrap; }
   .elementor-grid-tablet-5 .elementor-grid {
     grid-template-columns: repeat(5, 1fr);
     display: grid; }
-  .elementor-grid-tablet-0 .elementor-grid {
-    display: flex;
-    overflow: hidden;
-    flex-wrap: wrap; }
   .elementor-grid-tablet-6 .elementor-grid {
     grid-template-columns: repeat(6, 1fr);
     display: grid; }
-  .elementor-grid-tablet-0 .elementor-grid {
-    display: flex;
-    overflow: hidden;
-    flex-wrap: wrap; }
   .elementor-grid-tablet-7 .elementor-grid {
     grid-template-columns: repeat(7, 1fr);
     display: grid; }
-  .elementor-grid-tablet-0 .elementor-grid {
-    display: flex;
-    overflow: hidden;
-    flex-wrap: wrap; }
   .elementor-grid-tablet-8 .elementor-grid {
     grid-template-columns: repeat(8, 1fr);
     display: grid; }
-  .elementor-grid-tablet-0 .elementor-grid {
-    display: flex;
-    overflow: hidden;
-    flex-wrap: wrap; }
   .elementor-grid-tablet-9 .elementor-grid {
     grid-template-columns: repeat(9, 1fr);
     display: grid; }
-  .elementor-grid-tablet-0 .elementor-grid {
-    display: flex;
-    overflow: hidden;
-    flex-wrap: wrap; }
   .elementor-grid-tablet-10 .elementor-grid {
     grid-template-columns: repeat(10, 1fr);
     display: grid; }
-  .elementor-grid-tablet-0 .elementor-grid {
-    display: flex;
-    overflow: hidden;
-    flex-wrap: wrap; }
   .elementor-grid-tablet-11 .elementor-grid {
     grid-template-columns: repeat(11, 1fr);
     display: grid; }
-  .elementor-grid-tablet-0 .elementor-grid {
-    display: flex;
-    overflow: hidden;
-    flex-wrap: wrap; }
   .elementor-grid-tablet-12 .elementor-grid {
     grid-template-columns: repeat(12, 1fr);
     display: grid; } }
@@ -934,80 +837,36 @@ ul.elementor-icon-list-items.elementor-inline-items {
   .elementor-grid-mobile-1 .elementor-grid {
     grid-template-columns: repeat(1, 1fr);
     display: grid; }
-  .elementor-grid-mobile-0 .elementor-grid {
-    display: flex;
-    overflow: hidden;
-    flex-wrap: wrap; }
   .elementor-grid-mobile-2 .elementor-grid {
     grid-template-columns: repeat(2, 1fr);
     display: grid; }
-  .elementor-grid-mobile-0 .elementor-grid {
-    display: flex;
-    overflow: hidden;
-    flex-wrap: wrap; }
   .elementor-grid-mobile-3 .elementor-grid {
     grid-template-columns: repeat(3, 1fr);
     display: grid; }
-  .elementor-grid-mobile-0 .elementor-grid {
-    display: flex;
-    overflow: hidden;
-    flex-wrap: wrap; }
   .elementor-grid-mobile-4 .elementor-grid {
     grid-template-columns: repeat(4, 1fr);
     display: grid; }
-  .elementor-grid-mobile-0 .elementor-grid {
-    display: flex;
-    overflow: hidden;
-    flex-wrap: wrap; }
   .elementor-grid-mobile-5 .elementor-grid {
     grid-template-columns: repeat(5, 1fr);
     display: grid; }
-  .elementor-grid-mobile-0 .elementor-grid {
-    display: flex;
-    overflow: hidden;
-    flex-wrap: wrap; }
   .elementor-grid-mobile-6 .elementor-grid {
     grid-template-columns: repeat(6, 1fr);
     display: grid; }
-  .elementor-grid-mobile-0 .elementor-grid {
-    display: flex;
-    overflow: hidden;
-    flex-wrap: wrap; }
   .elementor-grid-mobile-7 .elementor-grid {
     grid-template-columns: repeat(7, 1fr);
     display: grid; }
-  .elementor-grid-mobile-0 .elementor-grid {
-    display: flex;
-    overflow: hidden;
-    flex-wrap: wrap; }
   .elementor-grid-mobile-8 .elementor-grid {
     grid-template-columns: repeat(8, 1fr);
     display: grid; }
-  .elementor-grid-mobile-0 .elementor-grid {
-    display: flex;
-    overflow: hidden;
-    flex-wrap: wrap; }
   .elementor-grid-mobile-9 .elementor-grid {
     grid-template-columns: repeat(9, 1fr);
     display: grid; }
-  .elementor-grid-mobile-0 .elementor-grid {
-    display: flex;
-    overflow: hidden;
-    flex-wrap: wrap; }
   .elementor-grid-mobile-10 .elementor-grid {
     grid-template-columns: repeat(10, 1fr);
     display: grid; }
-  .elementor-grid-mobile-0 .elementor-grid {
-    display: flex;
-    overflow: hidden;
-    flex-wrap: wrap; }
   .elementor-grid-mobile-11 .elementor-grid {
     grid-template-columns: repeat(11, 1fr);
     display: grid; }
-  .elementor-grid-mobile-0 .elementor-grid {
-    display: flex;
-    overflow: hidden;
-    flex-wrap: wrap; }
   .elementor-grid-mobile-12 .elementor-grid {
     grid-template-columns: repeat(12, 1fr);
     display: grid; } }

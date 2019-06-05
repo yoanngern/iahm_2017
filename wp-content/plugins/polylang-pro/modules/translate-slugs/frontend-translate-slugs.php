@@ -46,8 +46,9 @@ class PLL_Frontend_Translate_Slugs extends PLL_Translate_Slugs {
 	 * @return string Modified url
 	 */
 	public function pll_get_archive_url( $url, $language ) {
-		if ( is_post_type_archive() && ( $post_type = get_query_var( 'post_type' ) ) ) {
-			$url = $this->slugs_model->switch_translated_slug( $url, $language, 'archive_' . $post_type );
+		if ( is_post_type_archive() ) {
+			$post_type = get_queried_object();
+			$url = $this->slugs_model->switch_translated_slug( $url, $language, 'archive_' . $post_type->name );
 		}
 
 		if ( is_tax( 'post_format' ) ) {
